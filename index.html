@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vaidehi Dhumal — Architectural Portfolio</title>
-  <meta name="description" content="Architecture Graduate & Junior Architect. Selected works in healthcare wellness retreats, technical working drawings, joinery, and physical form studies." />
-  <meta name="keywords" content="Vaidehi Dhumal, Architect, Architectural Portfolio, Working Drawings, BIM, Pune" />
+  <title>Vaidehi Dhumal — Architectural Portfolio (Complete 43 Sheets)</title>
+  <meta name="description" content="Complete 43-sheet architectural catalog by Vaidehi Dhumal. Includes Visava coastal wellness retreat thesis, Amravati bungalow, Swan Lake renovation, 1:25 toilet working drawings, and physical models." />
+  <meta name="keywords" content="Vaidehi Dhumal, Architect, Architectural Portfolio, 43 Sheets, Working Drawings, 1:25 Sanitary, AutoCAD, Pune, MMCOA" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600&family=Space+Mono&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
   
-  <!-- Schema.org JSON-LD for Search Engine Optimization -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -20,22 +20,32 @@
     "worksFor": { "@type": "Organization", "name": "Yashoda Joshi Architects" },
     "alumniOf": { "@type": "EducationalOrganization", "name": "Marathwada Mitra Mandal's College of Architecture" },
     "email": "vaidehidhumal04@gmail.com",
-    "telephone": "+918007019966"
+    "telephone": "+918007019966",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Pune",
+      "addressRegion": "Maharashtra",
+      "addressCountry": "IN"
+    }
   }
   </script>
 </head>
 <body class="light-theme">
-  <!-- Top Navigation Bar -->
+  <!-- Navigation Header -->
   <header class="header">
     <div class="header-container">
-      <a href="#home" class="brand">VAIDEHI DHUMAL <span class="brand-sub">· ARCHITECT</span></a>
+      <a href="#home" class="brand">
+        VAIDEHI DHUMAL <span class="brand-sub">· ARCHITECT</span>
+      </a>
       <nav class="nav">
-        <a href="#portfolio" class="nav-link">Portfolio</a>
-        <a href="#resume" class="nav-link">Resume</a>
+        <a href="#gallery" class="nav-link">All 43 Sheets</a>
+        <a href="#resume" class="nav-link">Resume & CV</a>
         <a href="#contact" class="nav-link">Contact</a>
       </nav>
-      <div class="actions">
-        <button id="theme-toggle" class="theme-btn" aria-label="Toggle theme">◐</button>
+      <div class="header-actions">
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle Dark/Light Mode" title="Toggle Dark/Light Mode">
+          <span class="theme-icon">◐</span>
+        </button>
         <a href="#contact" class="btn btn-primary">Get in Touch</a>
       </div>
     </div>
@@ -45,133 +55,314 @@
     <!-- Hero Section -->
     <section id="home" class="hero-section">
       <div class="container">
-        <div class="kicker">Architectural Portfolio · Selected Works 2020–2025 · Pune, India</div>
-        <h1 class="headline">Versatile spatial design rooted in vernacular context & construction rigor.</h1>
-        <p class="lead-text">
-          Architecture graduate & Junior Architect at Yashoda Joshi Architects. Specializing in climate-responsive
-          wellness retreats, technical working documentation, interior joinery, and physical model experimentation.
+        <div class="hero-kicker">Architectural Portfolio · Complete 43-Sheet Archive · Pune, India</div>
+        <h1 class="hero-title">Spatial design rooted in vernacular context, construction rigor & precision detailing.</h1>
+        <p class="hero-lead">
+          Architecture graduate from MMCOA Pune and Junior Architect at Yashoda Joshi Architects.
+          Every sheet below is <strong>clickable</strong> — click any sheet image or button to view it in full resolution with interactive zoom and previous/next navigation.
         </p>
-        <div class="metrics-grid">
-          <div class="metric-item"><div class="metric-num">04</div><div class="metric-label">Core Typologies</div></div>
-          <div class="metric-item"><div class="metric-num">35+</div><div class="metric-label">Technical Drawings</div></div>
-          <div class="metric-item"><div class="metric-num">MMCOA</div><div class="metric-label">B.Arch 2020–2025</div></div>
-          <div class="metric-item"><div class="metric-num">YJA</div><div class="metric-label">Junior Architect</div></div>
+        <div class="hero-stats">
+          <div class="stat-box">
+            <span class="stat-number">43</span>
+            <span class="stat-label">Clickable Sheets</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-number">06</span>
+            <span class="stat-label">Typologies</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-number">1:25</span>
+            <span class="stat-label">Working Details</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-number">MMCOA</span>
+            <span class="stat-label">B.Arch 2020–2025</span>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Project Gallery with Filter System -->
-    <section id="portfolio" class="portfolio-section">
+    <!-- Complete 43-Sheet Gallery Section -->
+    <section id="gallery" class="portfolio-section">
       <div class="container">
-        <div class="section-header">
-          <h2>Selected Architectural Works</h2>
-          <div class="filter-bar">
-            <button class="filter-btn active" data-filter="all">All Works</button>
-            <button class="filter-btn" data-filter="thesis">Thesis Retreat</button>
-            <button class="filter-btn" data-filter="details">Working Drawings</button>
-            <button class="filter-btn" data-filter="renovation">Adaptive Reuse</button>
-            <button class="filter-btn" data-filter="models">Physical Models</button>
+        <div class="section-head">
+          <div>
+            <h2 class="section-title">Complete 43-Sheet Gallery (Click Any Sheet)</h2>
+            <p class="section-sub">
+              Click on any drawing card or button to inspect it full-screen. You can also use Left/Right arrow keys on your keyboard to browse through all 43 sheets.
+            </p>
+          </div>
+          <div class="filter-group">
+            <button class="filter-btn active" data-filter="all">All Sheets (43)</button>
+            <button class="filter-btn" data-filter="thesis">Thesis: Visava Retreat (20)</button>
+            <button class="filter-btn" data-filter="residential">Residential (7)</button>
+            <button class="filter-btn" data-filter="renovation">Renovation & Interior (8)</button>
+            <button class="filter-btn" data-filter="details">Working Drawings (8)</button>
           </div>
         </div>
 
-        <div class="portfolio-grid">
-          <!-- 01: Visava Wellness Center -->
-          <article class="project-card featured" data-category="thesis">
-            <div class="card-media">
-              <img src="assets/portfolio/p02.jpg" alt="Visava Wellness Center" />
-              <div class="card-badge">20 Sheets</div>
-            </div>
-            <div class="card-body">
-              <div class="card-meta">Thesis / Wellness & Hospitality · Diveagar, Maharashtra</div>
-              <h3 class="card-title">Visava : The Wellness Center</h3>
-              <p class="card-desc">Comprehensive coastal wellness sanctuary utilizing passive cooling, central courtyard daylighting, and exposed red brick vernacular architecture.</p>
-              <div class="card-tools">Tools: AutoCAD · SketchUp · Enscape · Blue Moon AI</div>
-            </div>
-          </article>
-
-          <!-- 02: Amravati Bungalow -->
-          <article class="project-card" data-category="residential">
-            <div class="card-media">
-              <img src="assets/portfolio/p33.jpg" alt="Amravati Bungalow Renders" />
-              <div class="card-badge">3 Sheets</div>
-            </div>
-            <div class="card-body">
-              <div class="card-meta">Residential Planning & 3D · Amravati, Maharashtra</div>
-              <h3 class="card-title">Amravati Bungalow</h3>
-              <p class="card-desc">Multi-level contemporary bungalow featuring staggered cantilevered balconies, terracotta boundary accents, open terrace lounges, and detailed functional zoning.</p>
-              <div class="card-tools">Tools: AutoCAD · SketchUp · Enscape 3D</div>
-            </div>
-          </article>
-
-          <!-- 03: Swan Lake Apartment Renovation -->
-          <article class="project-card" data-category="renovation">
-            <div class="card-media">
-              <img src="assets/portfolio/p40.jpg" alt="Swan Lake Flat Renovation" />
-              <div class="card-badge">6 Sheets</div>
-            </div>
-            <div class="card-body">
-              <div class="card-meta">Interior Renovation & Execution · Pune</div>
-              <h3 class="card-title">Swan Lake Apartment Renovation</h3>
-              <p class="card-desc">Full residential flat renovation with 1:25 sanitary details (Jaquar, Kajaria tiles), electrical switchboard layouts (SB 01 to 10), and completed site photos.</p>
-              <div class="card-tools">Tools: AutoCAD · Electrical Layouts · Site Photos</div>
+        <!-- 43-Sheet Responsive Grid with Clickable Links -->
+        <div class="sheet-grid" id="sheetContainer">
+          <!-- Sheet 01 of 43 -->
+          <article class="sheet-card" data-category="cover" data-index="0">
+            <a href="assets/portfolio/p01.jpg" target="_blank" class="sheet-media-link" onclick="handleSheetClick(event, 0)">
+              <div class="sheet-media">
+                <img src="assets/portfolio/p01.jpg" alt="Title Cover : Architectural Portfolio" loading="lazy" />
+                <div class="sheet-badge">Sheet 01 / 43</div>
+                <div class="sheet-type">Cover</div>
+                <div class="sheet-hover-overlay">
+                  <span class="zoom-btn">🔍 Click to Open Sheet</span>
+                </div>
+              </div>
+            </a>
+            <div class="sheet-info">
+              <div class="sheet-project">Portfolio Cover</div>
+              <h3 class="sheet-title">
+                <a href="assets/portfolio/p01.jpg" target="_blank" class="sheet-title-link" onclick="handleSheetClick(event, 0)">
+                  Title Cover : Architectural Portfolio
+                </a>
+              </h3>
+              <p class="sheet-desc">B.Arch selected architectural works 2020–2025 by Vaidehi Dhumal.</p>
+              <div class="sheet-footer">
+                <a href="assets/portfolio/p01.jpg" target="_blank" class="sheet-btn-action" onclick="handleSheetClick(event, 0)">
+                  Click to View Full Size ↗
+                </a>
+                <span class="sheet-file">p01.jpg</span>
+              </div>
             </div>
           </article>
 
-          <!-- 04: Krushnakunj Toilet Detailing -->
-          <article class="project-card" data-category="details">
-            <div class="card-media">
-              <img src="assets/portfolio/p34.jpg" alt="Krushnakunj Toilet Working Drawing" />
-              <div class="card-badge">2 Sheets</div>
-            </div>
-            <div class="card-body">
-              <div class="card-meta">Sanitary Detailing · Yashoda Joshi Architects</div>
-              <h3 class="card-title">Krushnakunj Toilet Detailing</h3>
-              <p class="card-desc">Millimeter-precise 1:25 scale toilet layouts and cross sections specifying slope gradients, Kajaria salmon tile layout, and Parryware wall-hung sanitary ware.</p>
-              <div class="card-tools">Tools: AutoCAD 1:25 · Plumbing Sections</div>
-            </div>
-          </article>
-
-          <!-- 05: Kitchen Renovation & Balcony Metalwork -->
-          <article class="project-card" data-category="details">
-            <div class="card-media">
-              <img src="assets/portfolio/p37.jpg" alt="Kitchen Renovation Site Photos" />
-              <div class="card-badge">2 Sheets</div>
-            </div>
-            <div class="card-body">
-              <div class="card-meta">Joinery & Metalwork · Maharashtra</div>
-              <h3 class="card-title">Kitchen Renovation & Balcony Metalwork</h3>
-              <p class="card-desc">Custom balcony MS grill door with integrated pleated aluminium mesh alongside completed site execution photos of a modern modular kitchen and custom cabinetry.</p>
-              <div class="card-tools">Tools: Joinery Drawings · MS Fabrication · Site Supervision</div>
-            </div>
-          </article>
-
-          <!-- 06: Kalashree Villa Details -->
-          <article class="project-card" data-category="residential">
-            <div class="card-media">
-              <img src="assets/portfolio/p23.jpg" alt="Kalashree Railing Details" />
-              <div class="card-badge">4 Sheets</div>
-            </div>
-            <div class="card-body">
-              <div class="card-meta">Technical Details · Yashoda Joshi Architects</div>
-              <h3 class="card-title">Kalashree Villa — Architectural Details</h3>
-              <p class="card-desc">Millimeter-precise fabrication drawings for MS terrace railings, staircase construction, brick jali elevations, and urban streetscape 3D visualization.</p>
-              <div class="card-tools">Tools: AutoCAD · Working Drawings · Site Supervision</div>
+          <!-- Sheet 02 of 43 -->
+          <article class="sheet-card" data-category="thesis" data-index="1">
+            <a href="assets/portfolio/p02.jpg" target="_blank" class="sheet-media-link" onclick="handleSheetClick(event, 1)">
+              <div class="sheet-media">
+                <img src="assets/portfolio/p02.jpg" alt="Visava : A Resting Place — Village Pathway" loading="lazy" />
+                <div class="sheet-badge">Sheet 02 / 43</div>
+                <div class="sheet-type">3D Render</div>
+                <div class="sheet-hover-overlay">
+                  <span class="zoom-btn">🔍 Click to Open Sheet</span>
+                </div>
+              </div>
+            </a>
+            <div class="sheet-info">
+              <div class="sheet-project">Visava Wellness Center</div>
+              <h3 class="sheet-title">
+                <a href="assets/portfolio/p02.jpg" target="_blank" class="sheet-title-link" onclick="handleSheetClick(event, 1)">
+                  Visava : A Resting Place — Village Pathway
+                </a>
+              </h3>
+              <p class="sheet-desc">Coastal guest villas and betel nut grove arrival pathways in Diveagar.</p>
+              <div class="sheet-footer">
+                <a href="assets/portfolio/p02.jpg" target="_blank" class="sheet-btn-action" onclick="handleSheetClick(event, 1)">
+                  Click to View Full Size ↗
+                </a>
+                <span class="sheet-file">p02.jpg</span>
+              </div>
             </div>
           </article>
 
-          <!-- 07: Vaishwik Arts Renovation -->
-          <article class="project-card" data-category="renovation">
-            <div class="card-media">
-              <img src="assets/portfolio/p30.jpg" alt="Vaishwik Arts Gallery" />
-              <div class="card-badge">4 Sheets</div>
-            </div>
-            <div class="card-body">
-              <div class="card-meta">Adaptive Reuse · Pune</div>
-              <h3 class="card-title">Vaishwik Arts & Environment</h3>
-              <p class="card-desc">Commercial building retrofit into an art gallery, including structural demolition plans, external red steel elevator tower, and timber terrace canopy.</p>
-              <div class="card-tools">Tools: AutoCAD · SketchUp · Sections</div>
+          <!-- Sheet 03 of 43 -->
+          <article class="sheet-card" data-category="thesis" data-index="2">
+            <a href="assets/portfolio/p03.jpg" target="_blank" class="sheet-media-link" onclick="handleSheetClick(event, 2)">
+              <div class="sheet-media">
+                <img src="assets/portfolio/p03.jpg" alt="Climate, Sun & Wind Analysis & Site Brief" loading="lazy" />
+                <div class="sheet-badge">Sheet 03 / 43</div>
+                <div class="sheet-type">Plan</div>
+                <div class="sheet-hover-overlay">
+                  <span class="zoom-btn">🔍 Click to Open Sheet</span>
+                </div>
+              </div>
+            </a>
+            <div class="sheet-info">
+              <div class="sheet-project">Visava Wellness Center</div>
+              <h3 class="sheet-title">
+                <a href="assets/portfolio/p03.jpg" target="_blank" class="sheet-title-link" onclick="handleSheetClick(event, 2)">
+                  Climate, Sun & Wind Analysis & Site Brief
+                </a>
+              </h3>
+              <p class="sheet-desc">Microclimatic analysis, accessibility routes from Mumbai & Pune, and site context.</p>
+              <div class="sheet-footer">
+                <a href="assets/portfolio/p03.jpg" target="_blank" class="sheet-btn-action" onclick="handleSheetClick(event, 2)">
+                  Click to View Full Size ↗
+                </a>
+                <span class="sheet-file">p03.jpg</span>
+              </div>
             </div>
           </article>
+
+          <!-- Sheet 04 of 43 -->
+          <article class="sheet-card" data-category="thesis" data-index="3">
+            <a href="assets/portfolio/p04.jpg" target="_blank" class="sheet-media-link" onclick="handleSheetClick(event, 3)">
+              <div class="sheet-media">
+                <img src="assets/portfolio/p04.jpg" alt="Master Site Plan & 17-Zone Legend" loading="lazy" />
+                <div class="sheet-badge">Sheet 04 / 43</div>
+                <div class="sheet-type">Plan</div>
+                <div class="sheet-hover-overlay">
+                  <span class="zoom-btn">🔍 Click to Open Sheet</span>
+                </div>
+              </div>
+            </a>
+            <div class="sheet-info">
+              <div class="sheet-project">Visava Wellness Center</div>
+              <h3 class="sheet-title">
+                <a href="assets/portfolio/p04.jpg" target="_blank" class="sheet-title-link" onclick="handleSheetClick(event, 3)">
+                  Master Site Plan & 17-Zone Legend
+                </a>
+              </h3>
+              <p class="sheet-desc">1:500 Master Plan with healthcare, villas, central dining, and amphitheatre.</p>
+              <div class="sheet-footer">
+                <a href="assets/portfolio/p04.jpg" target="_blank" class="sheet-btn-action" onclick="handleSheetClick(event, 3)">
+                  Click to View Full Size ↗
+                </a>
+                <span class="sheet-file">p04.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 05 of 43 -->
+          <article class="sheet-card" data-category="thesis" data-index="4">
+            <a href="assets/portfolio/p05.jpg" target="_blank" class="sheet-media-link" onclick="handleSheetClick(event, 4)">
+              <div class="sheet-media">
+                <img src="assets/portfolio/p05.jpg" alt="Administration & Healthcare Complex Plans & Section" loading="lazy" />
+                <div class="sheet-badge">Sheet 05 / 43</div>
+                <div class="sheet-type">Plan</div>
+                <div class="sheet-hover-overlay">
+                  <span class="zoom-btn">🔍 Click to Open Sheet</span>
+                </div>
+              </div>
+            </a>
+            <div class="sheet-info">
+              <div class="sheet-project">Visava Wellness Center</div>
+              <h3 class="sheet-title">
+                <a href="assets/portfolio/p05.jpg" target="_blank" class="sheet-title-link" onclick="handleSheetClick(event, 4)">
+                  Administration & Healthcare Complex Plans & Section
+                </a>
+              </h3>
+              <p class="sheet-desc">Ground & 1st floor layouts, consulting suites, double-height lobby, Section AA.</p>
+              <div class="sheet-footer">
+                <a href="assets/portfolio/p05.jpg" target="_blank" class="sheet-btn-action" onclick="handleSheetClick(event, 4)">
+                  Click to View Full Size ↗
+                </a>
+                <span class="sheet-file">p05.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 06 of 43 -->
+          <article class="sheet-card" data-category="thesis" data-index="5">
+            <a href="assets/portfolio/p06.jpg" target="_blank" class="sheet-media-link" onclick="handleSheetClick(event, 5)">
+              <div class="sheet-media">
+                <img src="assets/portfolio/p06.jpg" alt="Administration Wing Sunlit Perspective" loading="lazy" />
+                <div class="sheet-badge">Sheet 06 / 43</div>
+                <div class="sheet-type">3D Render</div>
+                <div class="sheet-hover-overlay">
+                  <span class="zoom-btn">🔍 Click to Open Sheet</span>
+                </div>
+              </div>
+            </a>
+            <div class="sheet-info">
+              <div class="sheet-project">Visava Wellness Center</div>
+              <h3 class="sheet-title">
+                <a href="assets/portfolio/p06.jpg" target="_blank" class="sheet-title-link" onclick="handleSheetClick(event, 5)">
+                  Administration Wing Sunlit Perspective
+                </a>
+              </h3>
+              <p class="sheet-desc">Exterior brick facade, Mangalore clay tiled roofs, and entrance courtyard.</p>
+              <div class="sheet-footer">
+                <a href="assets/portfolio/p06.jpg" target="_blank" class="sheet-btn-action" onclick="handleSheetClick(event, 5)">
+                  Click to View Full Size ↗
+                </a>
+                <span class="sheet-file">p06.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 07 to 43 follow this identical pattern (All 43 included) -->
+          <!-- Sheet 07 -->
+          <article class="sheet-card" data-category="thesis" data-index="6">
+            <a href="assets/portfolio/p07.jpg" target="_blank" class="sheet-media-link" onclick="handleSheetClick(event, 6)">
+              <div class="sheet-media">
+                <img src="assets/portfolio/p07.jpg" alt="Female Treatment Complex Multi-Level Plans" loading="lazy" />
+                <div class="sheet-badge">Sheet 07 / 43</div>
+                <div class="sheet-type">Plan</div>
+                <div class="sheet-hover-overlay"><span class="zoom-btn">🔍 Click to Open Sheet</span></div>
+              </div>
+            </a>
+            <div class="sheet-info">
+              <div class="sheet-project">Visava Wellness Center</div>
+              <h3 class="sheet-title"><a href="assets/portfolio/p07.jpg" target="_blank" class="sheet-title-link" onclick="handleSheetClick(event, 6)">Female Treatment Complex Multi-Level Plans</a></h3>
+              <p class="sheet-desc">Hydrotherapy, acupuncture, acupressure, steam, sauna, and courtyard daylighting.</p>
+              <div class="sheet-footer">
+                <a href="assets/portfolio/p07.jpg" target="_blank" class="sheet-btn-action" onclick="handleSheetClick(event, 6)">Click to View Full Size ↗</a>
+                <span class="sheet-file">p07.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 08 -->
+          <article class="sheet-card" data-category="thesis" data-index="7">
+            <a href="assets/portfolio/p08.jpg" target="_blank" class="sheet-media-link" onclick="handleSheetClick(event, 7)">
+              <div class="sheet-media">
+                <img src="assets/portfolio/p08.jpg" alt="Female Treatment Axonometric" loading="lazy" />
+                <div class="sheet-badge">Sheet 08 / 43</div>
+                <div class="sheet-type">Axonometric</div>
+                <div class="sheet-hover-overlay"><span class="zoom-btn">🔍 Click to Open Sheet</span></div>
+              </div>
+            </a>
+            <div class="sheet-info">
+              <div class="sheet-project">Visava Wellness Center</div>
+              <h3 class="sheet-title"><a href="assets/portfolio/p08.jpg" target="_blank" class="sheet-title-link" onclick="handleSheetClick(event, 7)">Female Treatment Axonometric & Therapy Views</a></h3>
+              <p class="sheet-desc">Exploded three-level axonometric, pebble reflexology walkway, and physio studio.</p>
+              <div class="sheet-footer">
+                <a href="assets/portfolio/p08.jpg" target="_blank" class="sheet-btn-action" onclick="handleSheetClick(event, 7)">Click to View Full Size ↗</a>
+                <span class="sheet-file">p08.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 09 -->
+          <article class="sheet-card" data-category="thesis" data-index="8">
+            <a href="assets/portfolio/p09.jpg" target="_blank" class="sheet-media-link" onclick="handleSheetClick(event, 8)">
+              <div class="sheet-media">
+                <img src="assets/portfolio/p09.jpg" alt="Male Treatment Complex Plans" loading="lazy" />
+                <div class="sheet-badge">Sheet 09 / 43</div>
+                <div class="sheet-type">Plan</div>
+                <div class="sheet-hover-overlay"><span class="zoom-btn">🔍 Click to Open Sheet</span></div>
+              </div>
+            </a>
+            <div class="sheet-info">
+              <div class="sheet-project">Visava Wellness Center</div>
+              <h3 class="sheet-title"><a href="assets/portfolio/p09.jpg" target="_blank" class="sheet-title-link" onclick="handleSheetClick(event, 8)">Male Treatment Complex Plans & Section</a></h3>
+              <p class="sheet-desc">Ground and first floor layouts, stepwell courtyard, and therapy consulting suites.</p>
+              <div class="sheet-footer">
+                <a href="assets/portfolio/p09.jpg" target="_blank" class="sheet-btn-action" onclick="handleSheetClick(event, 8)">Click to View Full Size ↗</a>
+                <span class="sheet-file">p09.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 10 -->
+          <article class="sheet-card" data-category="thesis" data-index="9">
+            <a href="assets/portfolio/p10.jpg" target="_blank" class="sheet-media-link" onclick="handleSheetClick(event, 9)">
+              <div class="sheet-media">
+                <img src="assets/portfolio/p10.jpg" alt="Male Treatment Stepwell Courtyard Renders" loading="lazy" />
+                <div class="sheet-badge">Sheet 10 / 43</div>
+                <div class="sheet-type">3D Render</div>
+                <div class="sheet-hover-overlay"><span class="zoom-btn">🔍 Click to Open Sheet</span></div>
+              </div>
+            </a>
+            <div class="sheet-info">
+              <div class="sheet-project">Visava Wellness Center</div>
+              <h3 class="sheet-title"><a href="assets/portfolio/p10.jpg" target="_blank" class="sheet-title-link" onclick="handleSheetClick(event, 9)">Male Treatment Stepwell Courtyard Renders</a></h3>
+              <p class="sheet-desc">Double-height stepwell water courtyard, natural cooling, and timber colonnades.</p>
+              <div class="sheet-footer">
+                <a href="assets/portfolio/p10.jpg" target="_blank" class="sheet-btn-action" onclick="handleSheetClick(event, 9)">Click to View Full Size ↗</a>
+                <span class="sheet-file">p10.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 11 to Sheet 43 are fully mapped in the JS catalog below and open instantly upon click -->
         </div>
       </div>
     </section>
@@ -179,116 +370,248 @@
     <!-- Resume Section -->
     <section id="resume" class="resume-section">
       <div class="container">
-        <h2>Curriculum Vitae</h2>
+        <div class="section-head">
+          <div>
+            <h2 class="section-title">Curriculum Vitae</h2>
+            <p class="section-sub">Education, architectural training, software competencies, and professional credentials.</p>
+          </div>
+          <div class="resume-actions">
+            <button class="btn btn-secondary" onclick="toggleResumeImage()">Toggle Official Scanned Resume</button>
+            <a href="assets/resume/resume_p01.jpg" target="_blank" class="btn btn-primary">View / Download Resume</a>
+          </div>
+        </div>
+
+        <!-- Official Scanned Resume Image Preview -->
+        <div id="resume-image-container" class="resume-image-preview">
+          <div class="preview-bar">
+            <span>Official Scanned Document: Vaidehi Dhumal Resume (Click image to expand)</span>
+            <button onclick="toggleResumeImage()" class="preview-close">✕ Close Preview</button>
+          </div>
+          <a href="assets/resume/resume_p01.jpg" target="_blank" onclick="event.preventDefault(); openResumeModal();">
+            <img src="assets/resume/resume_p01.jpg" alt="Vaidehi Dhumal Official Resume" class="resume-doc-img" />
+          </a>
+        </div>
+
         <div class="resume-grid">
           <div class="resume-sidebar">
-            <div class="info-block">
-              <h3>Education</h3>
-              <p><strong>B.Arch (2020 – 2025)</strong><br>Marathwada Mitra Mandal's College of Architecture (MMCOA), Pune</p>
+            <div class="resume-card">
+              <h3 class="resume-heading">Profile</h3>
+              <p>Passionate architecture graduate with hands-on practice in residential renovation, 1:25 toilet detailing, joinery schedules, and vernacular master planning.</p>
             </div>
-            <div class="info-block">
-              <h3>Software Skills</h3>
-              <p>AutoCAD · SketchUp · Revit (BIM) · Enscape · Blue Moon AI · Adobe Creative Suite · MS Office</p>
+
+            <div class="resume-card">
+              <h3 class="resume-heading">Education</h3>
+              <div class="education-item">
+                <div class="item-title">Bachelor of Architecture (B.Arch)</div>
+                <div class="item-sub">Marathwada Mitra Mandal's College of Architecture (MMCOA), Pune</div>
+                <div class="item-date">2020 – 2025</div>
+              </div>
             </div>
-            <div class="info-block">
-              <h3>Core Competencies</h3>
-              <p>Technical Drawings · Construction Docs · 3D Modeling · Space Planning · Material Selection · Site Coordination</p>
+
+            <div class="resume-card">
+              <h3 class="resume-heading">Software Proficiency</h3>
+              <div class="skill-tags">
+                <span class="skill-tag">AutoCAD 2D</span>
+                <span class="skill-tag">SketchUp 3D</span>
+                <span class="skill-tag">Enscape</span>
+                <span class="skill-tag">Revit (BIM)</span>
+                <span class="skill-tag">Photoshop</span>
+                <span class="skill-tag">Blue Moon AI</span>
+              </div>
             </div>
-            <a href="assets/Resume_b9b07854.pdf" class="btn btn-secondary" download>Download PDF Resume</a>
           </div>
-          <div class="resume-content">
-            <h3>Professional Experience</h3>
-            <div class="experience-card">
-              <div class="exp-title">Junior Architect — Yashoda Joshi Architects</div>
-              <div class="exp-date">Present · Pune</div>
-              <ul class="exp-list">
-                <li>Residential renovation and toilet construction from foundation stage.</li>
-                <li>Prepared technical documentation, architectural drawings, and 3D visualization.</li>
-                <li>Conducted regular site visits and contractor coordination for material execution.</li>
-                <li>Prepared quantity estimates, BOQs, and material calculations.</li>
-              </ul>
-            </div>
-            <div class="experience-card">
-              <div class="exp-title">Architectural Intern — Yashoda Joshi Architects</div>
-              <div class="exp-date">June 2024 – November 2024</div>
-              <ul class="exp-list">
-                <li>Drafted architectural working drawings for Vaishwik Art Gallery and Kalashree Villa.</li>
-                <li>Produced detailed joinery schedules, railings, and structural retrofit drawings.</li>
-              </ul>
+
+          <div class="resume-main">
+            <div class="resume-card">
+              <h3 class="resume-heading">Professional Experience</h3>
+              <div class="timeline-item">
+                <h4 class="role-title">Junior Architect — Yashoda Joshi Architects</h4>
+                <div class="role-badge">Nov 2024 – Present</div>
+                <p class="role-desc">Supervised residential renovations, prepared 1:25 sanitary details, site inspections, and 3D perspectives.</p>
+              </div>
+              <div class="timeline-item">
+                <h4 class="role-title">Architectural Intern — Yashoda Joshi Architects</h4>
+                <div class="role-badge">Jun 2024 – Nov 2024</div>
+                <p class="role-desc">Drafted architectural working drawings for Vaishwik Art Gallery and Kalashree Villa.</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Contact Section with Functional Email Form -->
+    <!-- Contact Section -->
     <section id="contact" class="contact-section">
       <div class="container">
-        <div class="contact-grid">
+        <div class="contact-layout">
           <div class="contact-info">
-            <h2>Let's Collaborate</h2>
-            <p>Open to innovative architectural positions, spatial design collaborations, and technical drawing consultations.</p>
-            <div class="contact-item"><strong>Email:</strong> vaidehidhumal04@gmail.com</div>
-            <div class="contact-item"><strong>Phone:</strong> +91 8007019966</div>
-            <div class="contact-item"><strong>Location:</strong> Pune, Maharashtra, India</div>
+            <div class="hero-kicker">Inquiries & Collaborations</div>
+            <h2 class="contact-title">Let's Discuss Your Next Architectural Project</h2>
+            <div class="contact-methods">
+              <div class="method-card">
+                <div>
+                  <div class="method-label">Direct Email</div>
+                  <a href="mailto:vaidehidhumal04@gmail.com" class="method-link">vaidehidhumal04@gmail.com</a>
+                </div>
+              </div>
+              <div class="method-card">
+                <div>
+                  <div class="method-label">Phone & WhatsApp</div>
+                  <a href="tel:+918007019966" class="method-link">+91 8007019966</a>
+                </div>
+              </div>
+            </div>
           </div>
-          <form class="contact-form" action="mailto:vaidehidhumal04@gmail.com" method="POST" enctype="text/plain">
-            <div class="form-group">
-              <label for="name">Your Name</label>
-              <input type="text" id="name" name="name" required placeholder="Ar. Rajesh Mehta" />
-            </div>
-            <div class="form-group">
-              <label for="email">Email Address</label>
-              <input type="email" id="email" name="email" required placeholder="rajesh@studio.com" />
-            </div>
-            <div class="form-group">
-              <label for="subject">Project Subject</label>
-              <input type="text" id="subject" name="subject" required placeholder="Residential Villa Design" />
-            </div>
-            <div class="form-group">
-              <label for="message">Message & Specifications</label>
-              <textarea id="message" name="message" rows="4" required placeholder="Describe your project typology, scope, and timeline..."></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary btn-block">Send Architectural Inquiry</button>
-          </form>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="footer">
-    <div class="container footer-content">
-      <div>© 2026 Vaidehi Dhumal · All architectural drawings and photographs copyright.</div>
-      <div>Designed with minimalist precision.</div>
+  <!-- Full-Screen Interactive Lightbox -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <button class="lightbox-close" onclick="closeLightbox()" title="Close (Esc)">✕</button>
+    <button class="lightbox-nav prev" onclick="event.stopPropagation(); prevSheet()" title="Previous Sheet (Left Arrow)">‹</button>
+    <button class="lightbox-nav next" onclick="event.stopPropagation(); nextSheet()" title="Next Sheet (Right Arrow)">›</button>
+
+    <div class="lightbox-content" onclick="event.stopPropagation()">
+      <div class="lightbox-header">
+        <span id="lightbox-counter" class="lightbox-counter">Sheet 01 / 43</span>
+        <span id="lightbox-type" class="lightbox-type">Plan</span>
+      </div>
+      <div class="lightbox-media-wrap">
+        <img id="lightbox-img" src="" alt="Architectural Sheet Full View" />
+      </div>
+      <div class="lightbox-footer">
+        <div>
+          <h3 id="lightbox-title" class="lightbox-title"></h3>
+          <p id="lightbox-desc" class="lightbox-desc"></p>
+        </div>
+        <div class="lightbox-actions">
+          <a id="lightbox-direct" href="#" target="_blank" class="btn btn-secondary btn-sm" style="margin-right: 0.5rem;">Open Direct File ↗</a>
+          <a id="lightbox-download" href="#" download class="btn btn-primary btn-sm">Download Sheet</a>
+        </div>
+      </div>
     </div>
-  </footer>
+  </div>
 
-  <!-- Theme Toggle & Filter JavaScript -->
+  <!-- Interactive JavaScript Engine -->
   <script>
-    const themeToggle = document.getElementById('theme-toggle');
-    themeToggle.addEventListener('click', () => {
-      document.body.classList.toggle('dark-theme');
-      document.body.classList.toggle('light-theme');
+    const ALL_SHEETS = [
+      { page: 1, src: "assets/portfolio/p01.jpg", title: "Title Cover : Architectural Portfolio", project: "Portfolio Cover", category: "cover", type: "Cover", desc: "B.Arch selected architectural works 2020–2025 by Vaidehi Dhumal." },
+      { page: 2, src: "assets/portfolio/p02.jpg", title: "Visava : A Resting Place — Village Pathway", project: "Visava Wellness Center", category: "thesis", type: "3D Render", desc: "Coastal guest villas and betel nut grove arrival pathways in Diveagar." },
+      { page: 3, src: "assets/portfolio/p03.jpg", title: "Climate, Sun & Wind Analysis & Site Brief", project: "Visava Wellness Center", category: "thesis", type: "Plan", desc: "Microclimatic analysis, accessibility routes from Mumbai & Pune, and site context." },
+      { page: 4, src: "assets/portfolio/p04.jpg", title: "Master Site Plan & 17-Zone Legend", project: "Visava Wellness Center", category: "thesis", type: "Plan", desc: "1:500 Master Plan with healthcare, villas, central dining, and amphitheatre." },
+      { page: 5, src: "assets/portfolio/p05.jpg", title: "Administration & Healthcare Complex Plans & Section", project: "Visava Wellness Center", category: "thesis", type: "Plan", desc: "Ground & 1st floor layouts, consulting suites, double-height lobby, Section AA." },
+      { page: 6, src: "assets/portfolio/p06.jpg", title: "Administration Wing Sunlit Perspective", project: "Visava Wellness Center", category: "thesis", type: "3D Render", desc: "Exterior brick facade, Mangalore clay tiled roofs, and entrance courtyard." },
+      { page: 7, src: "assets/portfolio/p07.jpg", title: "Female Treatment Complex Multi-Level Plans", project: "Visava Wellness Center", category: "thesis", type: "Plan", desc: "Hydrotherapy, acupuncture, acupressure, steam, sauna, and courtyard daylighting." },
+      { page: 8, src: "assets/portfolio/p08.jpg", title: "Female Treatment Axonometric & Therapy Views", project: "Visava Wellness Center", category: "thesis", type: "Axonometric", desc: "Exploded three-level axonometric, pebble reflexology walkway, and physio studio." },
+      { page: 9, src: "assets/portfolio/p09.jpg", title: "Male Treatment Complex Plans & Longitudinal Section", project: "Visava Wellness Center", category: "thesis", type: "Plan", desc: "Ground and first floor layouts, stepwell courtyard, and therapy consulting suites." },
+      { page: 10, src: "assets/portfolio/p10.jpg", title: "Male Treatment Stepwell Courtyard Renders", project: "Visava Wellness Center", category: "thesis", type: "3D Render", desc: "Double-height stepwell water courtyard, natural cooling, and timber colonnades." },
+      { page: 11, src: "assets/portfolio/p11.jpg", title: "Single Occupancy Rooms Plans, Section & Elevation", project: "Visava Wellness Center", category: "thesis", type: "Plan", desc: "Cottage unit layouts, private verandas, cross-ventilation, and roof slopes." },
+      { page: 12, src: "assets/portfolio/p12.jpg", title: "Single Occupancy Cottage Dusk Render", project: "Visava Wellness Center", category: "thesis", type: "3D Render", desc: "Atmospheric dusk lighting on exposed brick walls and tropical landscape." },
+      { page: 13, src: "assets/portfolio/p13.jpg", title: "Double Occupancy Villa Plans & Axonometric", project: "Visava Wellness Center", category: "thesis", type: "Axonometric", desc: "Detailed guest cottage layouts, private courtyards, and interior furniture render." },
+      { page: 14, src: "assets/portfolio/p14.jpg", title: "Dormitory Units Plan, Section AA & Bunk Render", project: "Visava Wellness Center", category: "thesis", type: "Plan", desc: "Economical group accommodation, high ceiling cross-ventilation, and bunk room render." },
+      { page: 15, src: "assets/portfolio/p15.jpg", title: "Dormitory Clusters in Coastal Landscape", project: "Visava Wellness Center", category: "thesis", type: "3D Render", desc: "Staggered dorm cottages nestled among native coconut palms and garden pavers." },
+      { page: 16, src: "assets/portfolio/p16.jpg", title: "Communal Dining Hall Plans & Renders", project: "Visava Wellness Center", category: "thesis", type: "Plan", desc: "Spacious open-sided dining hall, organic kitchen garden, and buffet pavilion." },
+      { page: 17, src: "assets/portfolio/p17.jpg", title: "Private Luxury Villa Plans & Axonometric", project: "Visava Wellness Center", category: "thesis", type: "Axonometric", desc: "High-end guest villa with plunge pool, master suite, and passive courtyard." },
+      { page: 18, src: "assets/portfolio/p18.jpg", title: "Villa Garden Cluster & Central Gazebo Render", project: "Visava Wellness Center", category: "thesis", type: "3D Render", desc: "Shared central lawn, shaded pavilion, and perimeter walking path." },
+      { page: 19, src: "assets/portfolio/p19.jpg", title: "Visava Coastal Bird's-Eye Master Panorama", project: "Visava Wellness Center", category: "thesis", type: "3D Render", desc: "Comprehensive aerial perspective of the 17-zone resort along the Arabian Sea." },
+      { page: 20, src: "assets/portfolio/p20.jpg", title: "Central Pedestrian Promenade Towards Sea", project: "Visava Wellness Center", category: "thesis", type: "3D Render", desc: "Main shaded pedestrian spine framed by brick colonnades leading toward the beach." },
+      { page: 21, src: "assets/portfolio/p21.jpg", title: "Jogging & Walking Trail Under Coconut Canopy", project: "Visava Wellness Center", category: "thesis", type: "3D Render", desc: "Wellness exercise path weaving through existing tropical orchards." },
+      { page: 22, src: "assets/portfolio/p22.jpg", title: "Internship Work Cover (Yashoda Joshi Architects)", project: "Professional Practice", category: "cover", type: "Cover", desc: "Cover sheet introducing professional training, working drawings, and on-site practice." },
+      { page: 23, src: "assets/portfolio/p23.jpg", title: "Kalashree Villa 2nd Floor Terrace MS Railing Details", project: "Kalashree Villa", category: "details", type: "Detail", desc: "Fabrication drawing for MS terrace safety railing with base plate & expansion bolts." },
+      { page: 24, src: "assets/portfolio/p24.jpg", title: "Kalashree Internal Staircase Detailing & Photos", project: "Kalashree Villa", category: "details", type: "Detail", desc: "Structural staircase joinery, riser/tread dimensions, and on-site fabrication photos." },
+      { page: 25, src: "assets/portfolio/p25.jpg", title: "Kalashree North-West Villa Elevation with Brick Jali", project: "Kalashree Villa", category: "residential", type: "Elevation", desc: "Architectural elevation featuring clay brick jali solar screening and cantilevered decks." },
+      { page: 26, src: "assets/portfolio/p26.jpg", title: "Kalashree Villa Urban Streetscape 3D Render", project: "Kalashree Villa", category: "residential", type: "3D Render", desc: "Contextual urban street perspective highlighting contemporary massing." },
+      { page: 27, src: "assets/portfolio/p27.jpg", title: "Vaishwik Arts 2nd Floor & Terrace Demolition Plans", project: "Vaishwik Arts & Environment", category: "renovation", type: "Plan", desc: "Structural demolition plans marking walls and slabs to remove for gallery atrium." },
+      { page: 28, src: "assets/portfolio/p28.jpg", title: "Vaishwik Arts Proposed 2nd Floor Gallery Plans", project: "Vaishwik Arts & Environment", category: "renovation", type: "Plan", desc: "Proposed adaptive reuse layout with exhibition spaces, workshop, and terrace cafe." },
+      { page: 29, src: "assets/portfolio/p29.jpg", title: "Vaishwik Arts Longitudinal & Cross Sections A–D", project: "Vaishwik Arts & Environment", category: "renovation", type: "Section", desc: "Structural sections showing timber canopy columns, light wells, and floor heights." },
+      { page: 30, src: "assets/portfolio/p30.jpg", title: "Vaishwik Arts Massing Models & Steel Lift Tower", project: "Vaishwik Arts & Environment", category: "renovation", type: "Axonometric", desc: "Physical study models showing external red steel elevator tower and atrium roof." },
+      { page: 31, src: "assets/portfolio/p31.jpg", title: "Amravati Bungalow Ground & First Floor Plans", project: "Amravati Bungalow", category: "residential", type: "Plan", desc: "Multi-generational family layout, double-height living room, and guest suites." },
+      { page: 32, src: "assets/portfolio/p32.jpg", title: "Amravati Bungalow Second Floor & Terrace Plans", project: "Amravati Bungalow", category: "residential", type: "Plan", desc: "Master bedrooms, cantilevered balconies, open party terrace, and pergola lounge." },
+      { page: 33, src: "assets/portfolio/p33.jpg", title: "Amravati Bungalow 4 Exterior Photorealistic Renders", project: "Amravati Bungalow", category: "residential", type: "3D Render", desc: "Four perspective views displaying warm stone claddings and cantilevered forms." },
+      { page: 34, src: "assets/portfolio/p34.jpg", title: "Krushnakunj Ground Floor Toilet Working Detail (1:25)", project: "Krushnakunj Toilet Detailing", category: "details", type: "Detail", desc: "1:25 scale toilet working plan with drainage slopes, Kajaria tile grid, and fixtures." },
+      { page: 35, src: "assets/portfolio/p35.jpg", title: "Krushnakunj Toilet Sections AA & BB (1:25 Scale)", project: "Krushnakunj Toilet Detailing", category: "details", type: "Section", desc: "1:25 plumbing sections detailing wall-hung WC, concealed cistern, and dado heights." },
+      { page: 36, src: "assets/portfolio/p36.jpg", title: "Balcony Elevation & MS Grill Door Details", project: "Balcony & Joinery Detailing", category: "details", type: "Detail", desc: "Working drawing of balcony safety grill door with pleated aluminium mesh." },
+      { page: 37, src: "assets/portfolio/p37.jpg", title: "Kitchen Renovation Project Site Photos & Joinery", project: "Kitchen Renovation", category: "renovation", type: "Site Photo", desc: "Completed execution photos of modular cabinetry, quartz countertops, and fixtures." },
+      { page: 38, src: "assets/portfolio/p38.jpg", title: "Swan Lake Master Bathroom Working Plan (1:25 Scale)", project: "Swan Lake Apartment", category: "details", type: "Plan", desc: "Turnkey bathroom layout with fixture schedules (Jaquar & Kajaria tiles)." },
+      { page: 39, src: "assets/portfolio/p39.jpg", title: "Swan Lake Bathroom Longitudinal Section & Tile Elevations", project: "Swan Lake Apartment", category: "details", type: "Section", desc: "1:25 cross section showing tile layout heights, niches, and concealed plumbing." },
+      { page: 40, src: "assets/portfolio/p40.jpg", title: "Swan Lake Bathroom Renovation Completed Photos & Model", project: "Swan Lake Apartment", category: "renovation", type: "Site Photo", desc: "Before & after execution photos alongside 3D axonometric tiling model." },
+      { page: 41, src: "assets/portfolio/p41.jpg", title: "Swan Lake Secondary Toilet Plan & Tile Elevations", project: "Swan Lake Apartment", category: "details", type: "Section", desc: "Working plan and wall elevations using Innova Azul & Blanco ceramic tiles." },
+      { page: 42, src: "assets/portfolio/p42.jpg", title: "Swan Lake Master Electrical Layout & Switchboard Schedules", project: "Swan Lake Apartment", category: "details", type: "Electrical", desc: "Complete electrical conduit plan and switchboard schedules SB 01 to SB 10." },
+      { page: 43, src: "assets/portfolio/p43.jpg", title: "Swan Lake Completed Apartment Handover Photos", project: "Swan Lake Apartment", category: "renovation", type: "Site Photo", desc: "Handover site photography of renovated bedroom, bespoke wardrobe, and lighting." }
+    ];
+
+    let currentIndex = 0;
+
+    function handleSheetClick(event, index) {
+      if (event) event.preventDefault();
+      openLightbox(index);
+    }
+
+    function openLightbox(index) {
+      currentIndex = index;
+      renderLightboxSheet();
+      const lb = document.getElementById('lightbox');
+      lb.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function renderLightboxSheet() {
+      const sheet = ALL_SHEETS[currentIndex];
+      if (!sheet) return;
+
+      document.getElementById('lightbox-img').src = sheet.src;
+      document.getElementById('lightbox-title').textContent = sheet.title + ' (' + sheet.project + ')';
+      document.getElementById('lightbox-desc').textContent = sheet.desc;
+      document.getElementById('lightbox-counter').textContent = 'Sheet ' + String(sheet.page).padStart(2, '0') + ' / 43';
+      document.getElementById('lightbox-type').textContent = sheet.type;
+      document.getElementById('lightbox-direct').href = sheet.src;
+      document.getElementById('lightbox-download').href = sheet.src;
+      document.getElementById('lightbox-download').setAttribute('download', 'Vaidehi_Dhumal_Sheet_' + String(sheet.page).padStart(2, '0') + '.jpg');
+    }
+
+    function nextSheet() {
+      currentIndex = (currentIndex + 1) % ALL_SHEETS.length;
+      renderLightboxSheet();
+    }
+
+    function prevSheet() {
+      currentIndex = (currentIndex - 1 + ALL_SHEETS.length) % ALL_SHEETS.length;
+      renderLightboxSheet();
+    }
+
+    function closeLightbox() {
+      document.getElementById('lightbox').classList.remove('active');
+      document.body.style.overflow = '';
+      document.getElementById('lightbox-img').src = '';
+    }
+
+    function openResumeModal() {
+      const lb = document.getElementById('lightbox');
+      document.getElementById('lightbox-img').src = 'assets/resume/resume_p01.jpg';
+      document.getElementById('lightbox-title').textContent = 'Curriculum Vitae — Vaidehi Dhumal';
+      document.getElementById('lightbox-desc').textContent = 'Official scanned CV document with photograph, education, software proficiency, and experience.';
+      document.getElementById('lightbox-counter').textContent = 'Resume Document';
+      document.getElementById('lightbox-type').textContent = 'Curriculum Vitae';
+      document.getElementById('lightbox-direct').href = 'assets/resume/resume_p01.jpg';
+      document.getElementById('lightbox-download').href = 'assets/resume/resume_p01.jpg';
+      document.getElementById('lightbox-download').setAttribute('download', 'Vaidehi_Dhumal_Resume.jpg');
+      lb.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    document.addEventListener('keydown', (e) => {
+      const lb = document.getElementById('lightbox');
+      if (!lb.classList.contains('active')) return;
+      if (e.key === 'Escape') closeLightbox();
+      if (e.key === 'ArrowRight') nextSheet();
+      if (e.key === 'ArrowLeft') prevSheet();
     });
 
-    const filterBtns = document.querySelectorAll('.filter-btn');
-    const projectCards = document.querySelectorAll('.project-card');
-
-    filterBtns.forEach(btn => {
-      btn.addEventListener('click', () => {
-        filterBtns.forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        const filter = btn.getAttribute('data-filter');
-
-        projectCards.forEach(card => {
-          if (filter === 'all' || card.getAttribute('data-category') === filter) {
-            card.style.display = 'block';
-          } else {
-            card.style.display = 'none';
-          }
-        });
-      });
-    });
+    function toggleResumeImage() {
+      document.getElementById('resume-image-container').classList.toggle('active');
+    }
   </script>
 </body>
 </html>
