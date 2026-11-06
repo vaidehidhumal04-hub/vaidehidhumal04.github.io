@@ -6,6 +6,7 @@
   <title>Vaidehi Dhumal — Architectural Portfolio</title>
   <meta name="description" content="Architectural Portfolio by Vaidehi Dhumal. Selected works 2020–2025. Visava Wellness Retreat, Amravati Bungalow, Swan Lake Apartment, 1:25 Working Drawings." />
   <meta name="keywords" content="Vaidehi Dhumal, Architect, Architectural Portfolio, 43 Sheets, Working Drawings, 1:25 Sanitary, AutoCAD, Pune, MMCOA" />
+  <base href="../" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -1063,6 +1064,14 @@ body {
     "email": "vaidehidhumal04@gmail.com",
     "telephone": "+918007019966"
   }
+  </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('img[src=""]').forEach((image) => image.removeAttribute('src'));
+      document.querySelectorAll('a[href^="#"]').forEach((link) => {
+        link.href = `${window.location.pathname}${link.getAttribute('href')}`;
+      });
+    });
   </script>
 </head>
 <body class="light-theme">
