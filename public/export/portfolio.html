@@ -1,0 +1,2782 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vaidehi Dhumal — Architectural Portfolio</title>
+  <meta name="description" content="Architectural Portfolio by Vaidehi Dhumal. Selected works 2020–2025. Visava Wellness Retreat, Amravati Bungalow, Swan Lake Apartment, 1:25 Working Drawings." />
+  <meta name="keywords" content="Vaidehi Dhumal, Architect, Architectural Portfolio, 43 Sheets, Working Drawings, 1:25 Sanitary, AutoCAD, Pune, MMCOA" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- Embedded Production CSS: Guaranteed to work immediately with ZERO missing styles -->
+  <style>
+/* ==========================================================================
+   Vaidehi Dhumal — Architectural Portfolio Minimalist CSS (All 43 Sheets)
+   Domain: High-end architectural gallery & technical working drawings catalog
+   Clean typography, responsive grid, zero-pill aesthetics, dark mode & modal nav
+   ========================================================================== */
+
+:root {
+  --font-display: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'Space Mono', monospace;
+
+  /* Light Theme Variables */
+  --bg-primary: #fbfbfb;
+  --bg-surface: #ffffff;
+  --bg-muted: #f4f4f5;
+  --bg-subtle: #f0f0f2;
+  --border-color: #e4e4e7;
+  --border-subtle: #ebebee;
+  --text-primary: #09090b;
+  --text-secondary: #52525b;
+  --text-muted: #71717a;
+  --accent: #18181b;
+  --accent-contrast: #ffffff;
+  --badge-bg: rgba(0, 0, 0, 0.78);
+  --badge-color: #ffffff;
+  --card-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.dark-theme {
+  --bg-primary: #09090b;
+  --bg-surface: #121215;
+  --bg-muted: #18181b;
+  --bg-subtle: #202024;
+  --border-color: #27272a;
+  --border-subtle: #1e1e22;
+  --text-primary: #fafafa;
+  --text-secondary: #a1a1aa;
+  --text-muted: #71717a;
+  --accent: #f4f4f5;
+  --accent-contrast: #09090b;
+  --badge-bg: rgba(255, 255, 255, 0.15);
+  --badge-color: #ffffff;
+  --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-body);
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  transition: background-color 0.25s ease, color 0.25s ease;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* Header & Top Bar */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: var(--bg-primary);
+  border-bottom: 1px solid var(--border-color);
+  padding: 1rem 0;
+  backdrop-filter: blur(8px);
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.brand {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.15rem;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+  text-decoration: none;
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.brand-sub {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  letter-spacing: 0.12em;
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-link {
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: color 0.15s ease;
+}
+
+.nav-link:hover {
+  color: var(--text-primary);
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.theme-btn {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  padding: 0.45rem 0.75rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s ease;
+}
+
+.theme-btn:hover {
+  background: var(--bg-muted);
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.55rem 1.15rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  font-family: var(--font-body);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  border-radius: 6px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+
+.btn-sm {
+  padding: 0.4rem 0.8rem;
+  font-size: 0.7rem;
+}
+
+.btn-primary {
+  background-color: var(--accent);
+  color: var(--accent-contrast);
+  border: 1px solid transparent;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+}
+
+.btn-secondary:hover {
+  background: var(--bg-muted);
+}
+
+.btn-block {
+  width: 100%;
+}
+
+/* Hero Section */
+.hero-section {
+  padding: 4.5rem 0 3.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.hero-kicker {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+}
+
+.hero-title {
+  font-family: var(--font-display);
+  font-size: 2.75rem;
+  line-height: 1.15;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  max-width: 950px;
+  margin-bottom: 1.5rem;
+}
+
+.hero-lead {
+  font-size: 1.125rem;
+  color: var(--text-secondary);
+  max-width: 780px;
+  line-height: 1.65;
+}
+
+.hero-lead strong {
+  color: var(--text-primary);
+}
+
+.hero-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1.5rem;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.stat-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-number {
+  font-family: var(--font-mono);
+  font-size: 1.85rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+
+.stat-label {
+  font-size: 0.75rem;
+  font-family: var(--font-mono);
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: 0.25rem;
+}
+
+/* Portfolio Section & Filter Bar */
+.portfolio-section {
+  padding: 4.5rem 0;
+}
+
+.section-head {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 900px) {
+  .section-head {
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+}
+
+.section-title {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.5rem;
+}
+
+.section-sub {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  max-width: 620px;
+}
+
+.filter-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.filter-btn {
+  background: var(--bg-muted);
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.45rem 0.9rem;
+  border-radius: 6px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.15s ease;
+}
+
+.filter-btn:hover {
+  color: var(--text-primary);
+  background: var(--bg-subtle);
+}
+
+.filter-btn.active {
+  background: var(--accent);
+  color: var(--accent-contrast);
+  border-color: var(--accent);
+}
+
+/* 43 Sheets Responsive Grid */
+.sheet-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.sheet-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: var(--card-shadow);
+}
+
+.sheet-card:hover {
+  border-color: var(--text-muted);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.sheet-media {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  background-color: var(--bg-muted);
+  overflow: hidden;
+}
+
+.sheet-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.35s ease;
+}
+
+.sheet-card:hover .sheet-media img {
+  transform: scale(1.03);
+}
+
+.sheet-badge {
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+  background: var(--badge-bg);
+  color: var(--badge-color);
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.25rem 0.6rem;
+  border-radius: 4px;
+  backdrop-filter: blur(4px);
+  letter-spacing: 0.05em;
+}
+
+.sheet-type {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  background: rgba(0, 0, 0, 0.65);
+  color: #fff;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  backdrop-filter: blur(4px);
+}
+
+.sheet-hover-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.sheet-card:hover .sheet-hover-overlay {
+  opacity: 1;
+}
+
+.zoom-btn {
+  background: #ffffff;
+  color: #09090b;
+  font-size: 0.75rem;
+  font-weight: 600;
+  font-family: var(--font-body);
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.sheet-info {
+  padding: 1.25rem 1.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.sheet-project {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.35rem;
+}
+
+.sheet-title {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.5rem;
+  line-height: 1.35;
+}
+
+.sheet-desc {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.55;
+  margin-bottom: 1.25rem;
+  flex-grow: 1;
+}
+
+.sheet-media-link {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.sheet-title-link {
+  text-decoration: none;
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: color 0.15s ease;
+}
+
+.sheet-title-link:hover {
+  color: var(--text-muted);
+}
+
+.sheet-btn-action {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0.25rem 0.6rem;
+  border-radius: 4px;
+  background: var(--bg-muted);
+  border: 1px solid var(--border-color);
+  transition: all 0.15s ease;
+}
+
+.sheet-btn-action:hover {
+  background: var(--accent);
+  color: var(--accent-contrast);
+  border-color: var(--accent);
+}
+
+.sheet-action {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.sheet-file {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--text-muted);
+}
+
+/* Resume Section */
+.resume-section {
+  padding: 4.5rem 0;
+  border-top: 1px solid var(--border-color);
+}
+
+.resume-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.resume-image-preview {
+  display: none;
+  margin-bottom: 2.5rem;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: var(--card-shadow);
+}
+
+.resume-image-preview.active {
+  display: block;
+}
+
+.preview-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1.25rem;
+  background: var(--bg-muted);
+  border-bottom: 1px solid var(--border-color);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+}
+
+.preview-close {
+  background: transparent;
+  border: none;
+  font-family: inherit;
+  font-size: 0.75rem;
+  cursor: pointer;
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.resume-doc-img {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  display: block;
+  cursor: zoom-in;
+  padding: 1.5rem;
+}
+
+.resume-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 900px) {
+  .resume-grid {
+    grid-template-columns: 360px 1fr;
+  }
+}
+
+.resume-sidebar, .resume-main {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.resume-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: var(--card-shadow);
+}
+
+.resume-heading {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.education-item {
+  margin-bottom: 1rem;
+}
+
+.education-item:last-child {
+  margin-bottom: 0;
+}
+
+.item-title {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.item-sub {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.item-date {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.skill-tag {
+  background: var(--bg-muted);
+  border: 1px solid var(--border-color);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  padding: 0.25rem 0.55rem;
+  border-radius: 4px;
+}
+
+.bullet-list {
+  padding-left: 1.25rem;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+
+.bullet-list li {
+  margin-bottom: 0.35rem;
+}
+
+.timeline-item {
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.timeline-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.timeline-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.role-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  font-family: var(--font-display);
+}
+
+.role-firm {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.role-badge {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  background: var(--bg-muted);
+  border: 1px solid var(--border-color);
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.role-responsibilities {
+  padding-left: 1.25rem;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+
+.role-responsibilities li {
+  margin-bottom: 0.4rem;
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 4.5rem 0;
+  border-top: 1px solid var(--border-color);
+}
+
+.contact-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+}
+
+@media (min-width: 900px) {
+  .contact-layout {
+    grid-template-columns: 1fr 1.25fr;
+  }
+}
+
+.contact-title {
+  font-family: var(--font-display);
+  font-size: 2.25rem;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.contact-desc {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.contact-methods {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.method-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+}
+
+.method-icon {
+  font-size: 1.25rem;
+  width: 40px;
+  height: 40px;
+  background: var(--bg-muted);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.method-label {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  letter-spacing: 0.05em;
+}
+
+.method-link {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+.method-link:hover {
+  text-decoration: underline;
+}
+
+.contact-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 2.25rem;
+  box-shadow: var(--card-shadow);
+}
+
+.form-title {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.form-group label {
+  display: block;
+  font-size: 0.75rem;
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.4rem;
+  color: var(--text-secondary);
+}
+
+.form-group input, .form-group textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background: var(--bg-muted);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  color: var(--text-primary);
+  font-family: inherit;
+  font-size: 0.875rem;
+  transition: border-color 0.15s ease;
+}
+
+.form-group input:focus, .form-group textarea:focus {
+  outline: none;
+  border-color: var(--text-primary);
+  background: var(--bg-surface);
+}
+
+.form-footnote {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+/* Lightbox Modal with Next / Prev Navigation */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.92);
+  backdrop-filter: blur(8px);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.lightbox.active {
+  display: flex;
+}
+
+.lightbox-content {
+  position: relative;
+  max-width: 94vw;
+  max-height: 94vh;
+  display: flex;
+  flex-direction: column;
+  background: #121215;
+  border: 1px solid #27272a;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.7);
+}
+
+.lightbox-close {
+  position: fixed;
+  top: 1.5rem;
+  right: 1.5rem;
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+  color: #ffffff;
+  font-size: 1.5rem;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s ease;
+  z-index: 1010;
+}
+
+.lightbox-close:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.lightbox-nav {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+  color: #ffffff;
+  font-size: 2.5rem;
+  width: 50px;
+  height: 60px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s ease;
+  z-index: 1010;
+  user-select: none;
+}
+
+.lightbox-nav:hover {
+  background: rgba(255, 255, 255, 0.35);
+}
+
+.lightbox-nav.prev {
+  left: 1.5rem;
+}
+
+.lightbox-nav.next {
+  right: 1.5rem;
+}
+
+.lightbox-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1.25rem;
+  background: #18181b;
+  border-bottom: 1px solid #27272a;
+  color: #a1a1aa;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+}
+
+.lightbox-counter {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.lightbox-type {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+}
+
+.lightbox-media-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000000;
+  padding: 0.5rem;
+  max-height: 72vh;
+  overflow: hidden;
+}
+
+#lightbox-img {
+  max-width: 100%;
+  max-height: 70vh;
+  object-fit: contain;
+}
+
+.lightbox-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 1rem 1.25rem;
+  background: #18181b;
+  border-top: 1px solid #27272a;
+}
+
+.lightbox-title {
+  color: #fafafa;
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.lightbox-desc {
+  color: #a1a1aa;
+  font-size: 0.8rem;
+  margin-top: 0.2rem;
+}
+
+/* Footer */
+.footer {
+  border-top: 1px solid var(--border-color);
+  padding: 2.5rem 0;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.footer-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  .footer-inner {
+    flex-direction: row;
+  }
+}
+
+.footer-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.footer-links a {
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.footer-links a:hover {
+  color: var(--text-primary);
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.1rem;
+  }
+  .nav {
+    display: none;
+  }
+  .sheet-grid {
+    grid-template-columns: 1fr;
+  }
+  .lightbox-nav {
+    display: none;
+  }
+}
+
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Vaidehi Dhumal",
+    "jobTitle": "Junior Architect",
+    "worksFor": { "@type": "Organization", "name": "Yashoda Joshi Architects" },
+    "alumniOf": { "@type": "EducationalOrganization", "name": "Marathwada Mitra Mandal's College of Architecture" },
+    "email": "vaidehidhumal04@gmail.com",
+    "telephone": "+918007019966"
+  }
+  </script>
+</head>
+<body class="light-theme">
+  <!-- Navigation Header -->
+  <header class="header">
+    <div class="header-container">
+      <a href="#home" class="brand">
+        VAIDEHI DHUMAL <span class="brand-sub">· ARCHITECT</span>
+      </a>
+      <nav class="nav">
+        <a href="#gallery" class="nav-link">All 43 Sheets</a>
+        <a href="#resume" class="nav-link">Resume & CV</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle Dark/Light Mode" title="Toggle Dark/Light Mode">
+          <span class="theme-icon">◐</span>
+        </button>
+        <a href="#contact" class="btn btn-primary">Get in Touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="container">
+        <div class="hero-kicker">Architectural Portfolio · Complete 43-Sheet Archive · Pune, India</div>
+        <h1 class="hero-title">Spatial design rooted in vernacular context, construction rigor & precision detailing.</h1>
+        <p class="hero-lead">
+          Architecture graduate from MMCOA Pune and Junior Architect at Yashoda Joshi Architects.
+          Explore all <strong>43 curated architectural sheets</strong> below: from climate analyses and master plans, to exploded axonometrics, 1:25 sanitary details, electrical schedules, and completed site photos.
+        </p>
+        <div class="hero-stats">
+          <div class="stat-box">
+            <span class="stat-number">43</span>
+            <span class="stat-label">Curated Sheets</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-number">06</span>
+            <span class="stat-label">Typologies</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-number">1:25</span>
+            <span class="stat-label">Working Details</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-number">MMCOA</span>
+            <span class="stat-label">B.Arch 2020–2025</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Complete 43-Sheet Gallery Section -->
+    <section id="gallery" class="portfolio-section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2 class="section-title">Architectural Works & Sheets (43)</h2>
+            <p class="section-sub">
+              Click on any card or drawing to inspect it in full high-resolution with zoom and previous/next sheet navigation.
+            </p>
+          </div>
+          <div class="filter-group">
+            <button class="filter-btn active" data-filter="all">All Sheets (43)</button>
+            <button class="filter-btn" data-filter="thesis">Thesis: Visava Retreat (20)</button>
+            <button class="filter-btn" data-filter="residential">Residential (7)</button>
+            <button class="filter-btn" data-filter="renovation">Renovation & Interior (8)</button>
+            <button class="filter-btn" data-filter="details">Working Drawings (8)</button>
+          </div>
+        </div>
+
+        <!-- 43-Sheet Grid -->
+        <div class="sheet-grid" id="sheetContainer">
+          <!-- Sheet 01 of 43 -->
+          <article class="sheet-card" data-category="cover" data-index="0" onclick="openLightbox(0)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p01.jpg" alt="Title Cover : Architectural Portfolio" loading="lazy" />
+              <div class="sheet-badge">Sheet 01 / 43</div>
+              <div class="sheet-type">Cover</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Portfolio Cover</div>
+              <h3 class="sheet-title">Title Cover : Architectural Portfolio</h3>
+              <p class="sheet-desc">B.Arch selected architectural works 2020–2025 by Vaidehi Dhumal.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p01.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 02 of 43 -->
+          <article class="sheet-card" data-category="thesis" data-index="1" onclick="openLightbox(1)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p02.jpg" alt="Visava : A Resting Place — Village Pathway" loading="lazy" />
+              <div class="sheet-badge">Sheet 02 / 43</div>
+              <div class="sheet-type">3D Render</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Visava Wellness Center</div>
+              <h3 class="sheet-title">Visava : A Resting Place — Village Pathway</h3>
+              <p class="sheet-desc">Coastal guest villas and betel nut grove arrival pathways in Diveagar.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p02.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 03 of 43 -->
+          <article class="sheet-card" data-category="thesis" data-index="2" onclick="openLightbox(2)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p03.jpg" alt="Climate, Sun & Wind Analysis & Site Brief" loading="lazy" />
+              <div class="sheet-badge">Sheet 03 / 43</div>
+              <div class="sheet-type">Plan</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Visava Wellness Center</div>
+              <h3 class="sheet-title">Climate, Sun & Wind Analysis & Site Brief</h3>
+              <p class="sheet-desc">Microclimatic analysis, accessibility routes from Mumbai & Pune, and site context.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p03.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 04 of 43 -->
+          <article class="sheet-card" data-category="thesis" data-index="3" onclick="openLightbox(3)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p04.jpg" alt="Master Site Plan & 17-Zone Legend" loading="lazy" />
+              <div class="sheet-badge">Sheet 04 / 43</div>
+              <div class="sheet-type">Plan</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Visava Wellness Center</div>
+              <h3 class="sheet-title">Master Site Plan & 17-Zone Legend</h3>
+              <p class="sheet-desc">1:500 Master Plan with healthcare, villas, central dining, and amphitheatre.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p04.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 05 of 43 -->
+          <article class="sheet-card" data-category="thesis" data-index="4" onclick="openLightbox(4)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p05.jpg" alt="Administration & Healthcare Complex Plans & Section" loading="lazy" />
+              <div class="sheet-badge">Sheet 05 / 43</div>
+              <div class="sheet-type">Plan</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Visava Wellness Center</div>
+              <h3 class="sheet-title">Administration & Healthcare Complex Plans & Section</h3>
+              <p class="sheet-desc">Ground & 1st floor layouts, consulting suites, double-height lobby, Section AA.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p05.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 06 of 43 -->
+          <article class="sheet-card" data-category="thesis" data-index="5" onclick="openLightbox(5)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p06.jpg" alt="Administration Wing Sunlit Perspective" loading="lazy" />
+              <div class="sheet-badge">Sheet 06 / 43</div>
+              <div class="sheet-type">3D Render</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Visava Wellness Center</div>
+              <h3 class="sheet-title">Administration Wing Sunlit Perspective</h3>
+              <p class="sheet-desc">Exterior brick facade, Mangalore clay tiled roofs, and entrance courtyard.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p06.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 07 of 43 -->
+          <article class="sheet-card" data-category="thesis" data-index="6" onclick="openLightbox(6)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p07.jpg" alt="Female Treatment Complex Multi-Level Plans" loading="lazy" />
+              <div class="sheet-badge">Sheet 07 / 43</div>
+              <div class="sheet-type">Plan</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Visava Wellness Center</div>
+              <h3 class="sheet-title">Female Treatment Complex Multi-Level Plans</h3>
+              <p class="sheet-desc">Hydrotherapy, acupuncture, acupressure, steam, sauna, and courtyard daylighting.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p07.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 08 of 43 -->
+          <article class="sheet-card" data-category="thesis" data-index="7" onclick="openLightbox(7)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p08.jpg" alt="Female Treatment Axonometric & Therapy Views" loading="lazy" />
+              <div class="sheet-badge">Sheet 08 / 43</div>
+              <div class="sheet-type">Axonometric</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Visava Wellness Center</div>
+              <h3 class="sheet-title">Female Treatment Axonometric & Therapy Views</h3>
+              <p class="sheet-desc">Exploded three-level axonometric, pebble reflexology walkway, and physio studio.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p08.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 09 of 43 -->
+          <article class="sheet-card" data-category="thesis" data-index="8" onclick="openLightbox(8)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p09.jpg" alt="Male Treatment Complex Plans & Longitudinal Section" loading="lazy" />
+              <div class="sheet-badge">Sheet 09 / 43</div>
+              <div class="sheet-type">Plan</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Visava Wellness Center</div>
+              <h3 class="sheet-title">Male Treatment Complex Plans & Longitudinal Section</h3>
+              <p class="sheet-desc">Ground and first floor layouts, stepwell courtyard, and therapy consulting suites.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p09.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 10 of 43 -->
+          <article class="sheet-card" data-category="thesis" data-index="9" onclick="openLightbox(9)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p10.jpg" alt="Male Treatment Stepwell Courtyard Renders" loading="lazy" />
+              <div class="sheet-badge">Sheet 10 / 43</div>
+              <div class="sheet-type">3D Render</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Visava Wellness Center</div>
+              <h3 class="sheet-title">Male Treatment Stepwell Courtyard Renders</h3>
+              <p class="sheet-desc">Double-height stepwell water courtyard, natural cooling, and timber colonnades.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p10.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 11 of 43 -->
+          <article class="sheet-card" data-category="thesis" data-index="10" onclick="openLightbox(10)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p11.jpg" alt="Single Occupancy Rooms Plans, Section & Elevation" loading="lazy" />
+              <div class="sheet-badge">Sheet 11 / 43</div>
+              <div class="sheet-type">Plan</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Visava Wellness Center</div>
+              <h3 class="sheet-title">Single Occupancy Rooms Plans, Section & Elevation</h3>
+              <p class="sheet-desc">Cottage unit layouts, private verandas, cross-ventilation, and roof slopes.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p11.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 12 of 43 -->
+          <article class="sheet-card" data-category="thesis" data-index="11" onclick="openLightbox(11)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p12.jpg" alt="Single Occupancy Cottage Dusk Render" loading="lazy" />
+              <div class="sheet-badge">Sheet 12 / 43</div>
+              <div class="sheet-type">3D Render</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Visava Wellness Center</div>
+              <h3 class="sheet-title">Single Occupancy Cottage Dusk Render</h3>
+              <p class="sheet-desc">Atmospheric dusk lighting on exposed brick walls and tropical landscape.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p12.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 13 of 43 -->
+          <article class="sheet-card" data-category="thesis" data-index="12" onclick="openLightbox(12)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p13.jpg" alt="Double Occupancy Villa Plans & Axonometric" loading="lazy" />
+              <div class="sheet-badge">Sheet 13 / 43</div>
+              <div class="sheet-type">Axonometric</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Visava Wellness Center</div>
+              <h3 class="sheet-title">Double Occupancy Villa Plans & Axonometric</h3>
+              <p class="sheet-desc">Detailed guest cottage layouts, private courtyards, and interior furniture render.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p13.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 14 of 43 -->
+          <article class="sheet-card" data-category="thesis" data-index="13" onclick="openLightbox(13)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p14.jpg" alt="Dormitory Units Plan, Section AA & Bunk Render" loading="lazy" />
+              <div class="sheet-badge">Sheet 14 / 43</div>
+              <div class="sheet-type">Plan</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Visava Wellness Center</div>
+              <h3 class="sheet-title">Dormitory Units Plan, Section AA & Bunk Render</h3>
+              <p class="sheet-desc">Economical group accommodation, high ceiling cross-ventilation, and bunk room render.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p14.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 15 of 43 -->
+          <article class="sheet-card" data-category="thesis" data-index="14" onclick="openLightbox(14)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p15.jpg" alt="Dormitory Clusters in Coastal Landscape" loading="lazy" />
+              <div class="sheet-badge">Sheet 15 / 43</div>
+              <div class="sheet-type">3D Render</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Visava Wellness Center</div>
+              <h3 class="sheet-title">Dormitory Clusters in Coastal Landscape</h3>
+              <p class="sheet-desc">Staggered dorm cottages nestled among native coconut palms and garden pavers.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p15.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 16 of 43 -->
+          <article class="sheet-card" data-category="thesis" data-index="15" onclick="openLightbox(15)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p16.jpg" alt="Communal Dining Hall Plans & Renders" loading="lazy" />
+              <div class="sheet-badge">Sheet 16 / 43</div>
+              <div class="sheet-type">Plan</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Visava Wellness Center</div>
+              <h3 class="sheet-title">Communal Dining Hall Plans & Renders</h3>
+              <p class="sheet-desc">Spacious open-sided dining hall, organic kitchen garden, and buffet pavilion.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p16.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 17 of 43 -->
+          <article class="sheet-card" data-category="thesis" data-index="16" onclick="openLightbox(16)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p17.jpg" alt="Private Luxury Villa Plans & Axonometric" loading="lazy" />
+              <div class="sheet-badge">Sheet 17 / 43</div>
+              <div class="sheet-type">Axonometric</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Visava Wellness Center</div>
+              <h3 class="sheet-title">Private Luxury Villa Plans & Axonometric</h3>
+              <p class="sheet-desc">High-end guest villa with plunge pool, master suite, and passive courtyard.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p17.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 18 of 43 -->
+          <article class="sheet-card" data-category="thesis" data-index="17" onclick="openLightbox(17)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p18.jpg" alt="Villa Garden Cluster & Central Gazebo Render" loading="lazy" />
+              <div class="sheet-badge">Sheet 18 / 43</div>
+              <div class="sheet-type">3D Render</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Visava Wellness Center</div>
+              <h3 class="sheet-title">Villa Garden Cluster & Central Gazebo Render</h3>
+              <p class="sheet-desc">Shared central lawn, shaded pavilion, and perimeter walking path.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p18.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 19 of 43 -->
+          <article class="sheet-card" data-category="thesis" data-index="18" onclick="openLightbox(18)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p19.jpg" alt="Visava Coastal Bird's-Eye Master Panorama" loading="lazy" />
+              <div class="sheet-badge">Sheet 19 / 43</div>
+              <div class="sheet-type">3D Render</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Visava Wellness Center</div>
+              <h3 class="sheet-title">Visava Coastal Bird's-Eye Master Panorama</h3>
+              <p class="sheet-desc">Comprehensive aerial perspective of the 17-zone resort along the Arabian Sea.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p19.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 20 of 43 -->
+          <article class="sheet-card" data-category="thesis" data-index="19" onclick="openLightbox(19)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p20.jpg" alt="Central Pedestrian Promenade Towards Sea" loading="lazy" />
+              <div class="sheet-badge">Sheet 20 / 43</div>
+              <div class="sheet-type">3D Render</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Visava Wellness Center</div>
+              <h3 class="sheet-title">Central Pedestrian Promenade Towards Sea</h3>
+              <p class="sheet-desc">Main shaded pedestrian spine framed by brick colonnades leading toward the beach.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p20.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 21 of 43 -->
+          <article class="sheet-card" data-category="thesis" data-index="20" onclick="openLightbox(20)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p21.jpg" alt="Jogging & Walking Trail Under Coconut Canopy" loading="lazy" />
+              <div class="sheet-badge">Sheet 21 / 43</div>
+              <div class="sheet-type">3D Render</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Visava Wellness Center</div>
+              <h3 class="sheet-title">Jogging & Walking Trail Under Coconut Canopy</h3>
+              <p class="sheet-desc">Wellness exercise path weaving through existing tropical orchards.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p21.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 22 of 43 -->
+          <article class="sheet-card" data-category="cover" data-index="21" onclick="openLightbox(21)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p22.jpg" alt="Internship Work Cover (Yashoda Joshi Architects)" loading="lazy" />
+              <div class="sheet-badge">Sheet 22 / 43</div>
+              <div class="sheet-type">Cover</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Professional Practice</div>
+              <h3 class="sheet-title">Internship Work Cover (Yashoda Joshi Architects)</h3>
+              <p class="sheet-desc">Cover sheet introducing professional training, working drawings, and on-site practice.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p22.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 23 of 43 -->
+          <article class="sheet-card" data-category="details" data-index="22" onclick="openLightbox(22)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p23.jpg" alt="Kalashree Villa 2nd Floor Terrace MS Railing Details" loading="lazy" />
+              <div class="sheet-badge">Sheet 23 / 43</div>
+              <div class="sheet-type">Detail</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Kalashree Villa</div>
+              <h3 class="sheet-title">Kalashree Villa 2nd Floor Terrace MS Railing Details</h3>
+              <p class="sheet-desc">Fabrication drawing for MS terrace safety railing with base plate & expansion bolts.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p23.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 24 of 43 -->
+          <article class="sheet-card" data-category="details" data-index="23" onclick="openLightbox(23)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p24.jpg" alt="Kalashree Internal Staircase Detailing & Photos" loading="lazy" />
+              <div class="sheet-badge">Sheet 24 / 43</div>
+              <div class="sheet-type">Detail</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Kalashree Villa</div>
+              <h3 class="sheet-title">Kalashree Internal Staircase Detailing & Photos</h3>
+              <p class="sheet-desc">Structural staircase joinery, riser/tread dimensions, and on-site fabrication photos.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p24.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 25 of 43 -->
+          <article class="sheet-card" data-category="residential" data-index="24" onclick="openLightbox(24)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p25.jpg" alt="Kalashree North-West Villa Elevation with Brick Jali" loading="lazy" />
+              <div class="sheet-badge">Sheet 25 / 43</div>
+              <div class="sheet-type">Elevation</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Kalashree Villa</div>
+              <h3 class="sheet-title">Kalashree North-West Villa Elevation with Brick Jali</h3>
+              <p class="sheet-desc">Architectural elevation featuring clay brick jali solar screening and cantilevered decks.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p25.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 26 of 43 -->
+          <article class="sheet-card" data-category="residential" data-index="25" onclick="openLightbox(25)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p26.jpg" alt="Kalashree Villa Urban Streetscape 3D Render" loading="lazy" />
+              <div class="sheet-badge">Sheet 26 / 43</div>
+              <div class="sheet-type">3D Render</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Kalashree Villa</div>
+              <h3 class="sheet-title">Kalashree Villa Urban Streetscape 3D Render</h3>
+              <p class="sheet-desc">Contextual urban street perspective highlighting contemporary massing.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p26.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 27 of 43 -->
+          <article class="sheet-card" data-category="renovation" data-index="26" onclick="openLightbox(26)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p27.jpg" alt="Vaishwik Arts 2nd Floor & Terrace Demolition Plans" loading="lazy" />
+              <div class="sheet-badge">Sheet 27 / 43</div>
+              <div class="sheet-type">Plan</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Vaishwik Arts & Environment</div>
+              <h3 class="sheet-title">Vaishwik Arts 2nd Floor & Terrace Demolition Plans</h3>
+              <p class="sheet-desc">Structural demolition plans marking walls and slabs to remove for gallery atrium.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p27.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 28 of 43 -->
+          <article class="sheet-card" data-category="renovation" data-index="27" onclick="openLightbox(27)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p28.jpg" alt="Vaishwik Arts Proposed 2nd Floor Gallery Plans" loading="lazy" />
+              <div class="sheet-badge">Sheet 28 / 43</div>
+              <div class="sheet-type">Plan</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Vaishwik Arts & Environment</div>
+              <h3 class="sheet-title">Vaishwik Arts Proposed 2nd Floor Gallery Plans</h3>
+              <p class="sheet-desc">Proposed adaptive reuse layout with exhibition spaces, workshop, and terrace cafe.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p28.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 29 of 43 -->
+          <article class="sheet-card" data-category="renovation" data-index="28" onclick="openLightbox(28)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p29.jpg" alt="Vaishwik Arts Longitudinal & Cross Sections A–D" loading="lazy" />
+              <div class="sheet-badge">Sheet 29 / 43</div>
+              <div class="sheet-type">Section</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Vaishwik Arts & Environment</div>
+              <h3 class="sheet-title">Vaishwik Arts Longitudinal & Cross Sections A–D</h3>
+              <p class="sheet-desc">Structural sections showing timber canopy columns, light wells, and floor heights.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p29.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 30 of 43 -->
+          <article class="sheet-card" data-category="renovation" data-index="29" onclick="openLightbox(29)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p30.jpg" alt="Vaishwik Arts Massing Models & Steel Lift Tower" loading="lazy" />
+              <div class="sheet-badge">Sheet 30 / 43</div>
+              <div class="sheet-type">Axonometric</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Vaishwik Arts & Environment</div>
+              <h3 class="sheet-title">Vaishwik Arts Massing Models & Steel Lift Tower</h3>
+              <p class="sheet-desc">Physical study models showing external red steel elevator tower and atrium roof.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p30.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 31 of 43 -->
+          <article class="sheet-card" data-category="residential" data-index="30" onclick="openLightbox(30)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p31.jpg" alt="Amravati Bungalow Ground & First Floor Plans" loading="lazy" />
+              <div class="sheet-badge">Sheet 31 / 43</div>
+              <div class="sheet-type">Plan</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Amravati Bungalow</div>
+              <h3 class="sheet-title">Amravati Bungalow Ground & First Floor Plans</h3>
+              <p class="sheet-desc">Multi-generational family layout, double-height living room, and guest suites.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p31.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 32 of 43 -->
+          <article class="sheet-card" data-category="residential" data-index="31" onclick="openLightbox(31)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p32.jpg" alt="Amravati Bungalow Second Floor & Terrace Plans" loading="lazy" />
+              <div class="sheet-badge">Sheet 32 / 43</div>
+              <div class="sheet-type">Plan</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Amravati Bungalow</div>
+              <h3 class="sheet-title">Amravati Bungalow Second Floor & Terrace Plans</h3>
+              <p class="sheet-desc">Master bedrooms, cantilevered balconies, open party terrace, and pergola lounge.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p32.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 33 of 43 -->
+          <article class="sheet-card" data-category="residential" data-index="32" onclick="openLightbox(32)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p33.jpg" alt="Amravati Bungalow 4 Exterior Photorealistic Renders" loading="lazy" />
+              <div class="sheet-badge">Sheet 33 / 43</div>
+              <div class="sheet-type">3D Render</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Amravati Bungalow</div>
+              <h3 class="sheet-title">Amravati Bungalow 4 Exterior Photorealistic Renders</h3>
+              <p class="sheet-desc">Four perspective views displaying warm stone claddings and cantilevered forms.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p33.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 34 of 43 -->
+          <article class="sheet-card" data-category="details" data-index="33" onclick="openLightbox(33)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p34.jpg" alt="Krushnakunj Ground Floor Toilet Working Detail (1:25)" loading="lazy" />
+              <div class="sheet-badge">Sheet 34 / 43</div>
+              <div class="sheet-type">Detail</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Krushnakunj Toilet Detailing</div>
+              <h3 class="sheet-title">Krushnakunj Ground Floor Toilet Working Detail (1:25)</h3>
+              <p class="sheet-desc">1:25 scale toilet working plan with drainage slopes, Kajaria tile grid, and fixtures.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p34.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 35 of 43 -->
+          <article class="sheet-card" data-category="details" data-index="34" onclick="openLightbox(34)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p35.jpg" alt="Krushnakunj Toilet Sections AA & BB (1:25 Scale)" loading="lazy" />
+              <div class="sheet-badge">Sheet 35 / 43</div>
+              <div class="sheet-type">Section</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Krushnakunj Toilet Detailing</div>
+              <h3 class="sheet-title">Krushnakunj Toilet Sections AA & BB (1:25 Scale)</h3>
+              <p class="sheet-desc">1:25 plumbing sections detailing wall-hung WC, concealed cistern, and dado heights.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p35.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 36 of 43 -->
+          <article class="sheet-card" data-category="details" data-index="35" onclick="openLightbox(35)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p36.jpg" alt="Balcony Elevation & MS Grill Door Details" loading="lazy" />
+              <div class="sheet-badge">Sheet 36 / 43</div>
+              <div class="sheet-type">Detail</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Balcony & Joinery Detailing</div>
+              <h3 class="sheet-title">Balcony Elevation & MS Grill Door Details</h3>
+              <p class="sheet-desc">Working drawing of balcony safety grill door with pleated aluminium mesh.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p36.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 37 of 43 -->
+          <article class="sheet-card" data-category="renovation" data-index="36" onclick="openLightbox(36)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p37.jpg" alt="Kitchen Renovation Project Site Photos & Joinery" loading="lazy" />
+              <div class="sheet-badge">Sheet 37 / 43</div>
+              <div class="sheet-type">Site Photo</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Kitchen Renovation</div>
+              <h3 class="sheet-title">Kitchen Renovation Project Site Photos & Joinery</h3>
+              <p class="sheet-desc">Completed execution photos of modular cabinetry, quartz countertops, and fixtures.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p37.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 38 of 43 -->
+          <article class="sheet-card" data-category="details" data-index="37" onclick="openLightbox(37)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p38.jpg" alt="Swan Lake Master Bathroom Working Plan (1:25 Scale)" loading="lazy" />
+              <div class="sheet-badge">Sheet 38 / 43</div>
+              <div class="sheet-type">Plan</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Swan Lake Apartment</div>
+              <h3 class="sheet-title">Swan Lake Master Bathroom Working Plan (1:25 Scale)</h3>
+              <p class="sheet-desc">Turnkey bathroom layout with fixture schedules (Jaquar & Kajaria tiles).</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p38.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 39 of 43 -->
+          <article class="sheet-card" data-category="details" data-index="38" onclick="openLightbox(38)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p39.jpg" alt="Swan Lake Bathroom Longitudinal Section & Tile Elevations" loading="lazy" />
+              <div class="sheet-badge">Sheet 39 / 43</div>
+              <div class="sheet-type">Section</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Swan Lake Apartment</div>
+              <h3 class="sheet-title">Swan Lake Bathroom Longitudinal Section & Tile Elevations</h3>
+              <p class="sheet-desc">1:25 cross section showing tile layout heights, niches, and concealed plumbing.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p39.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 40 of 43 -->
+          <article class="sheet-card" data-category="renovation" data-index="39" onclick="openLightbox(39)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p40.jpg" alt="Swan Lake Bathroom Renovation Completed Photos & Model" loading="lazy" />
+              <div class="sheet-badge">Sheet 40 / 43</div>
+              <div class="sheet-type">Site Photo</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Swan Lake Apartment</div>
+              <h3 class="sheet-title">Swan Lake Bathroom Renovation Completed Photos & Model</h3>
+              <p class="sheet-desc">Before & after execution photos alongside 3D axonometric tiling model.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p40.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 41 of 43 -->
+          <article class="sheet-card" data-category="details" data-index="40" onclick="openLightbox(40)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p41.jpg" alt="Swan Lake Secondary Toilet Plan & Tile Elevations" loading="lazy" />
+              <div class="sheet-badge">Sheet 41 / 43</div>
+              <div class="sheet-type">Section</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Swan Lake Apartment</div>
+              <h3 class="sheet-title">Swan Lake Secondary Toilet Plan & Tile Elevations</h3>
+              <p class="sheet-desc">Working plan and wall elevations using Innova Azul & Blanco ceramic tiles.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p41.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 42 of 43 -->
+          <article class="sheet-card" data-category="details" data-index="41" onclick="openLightbox(41)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p42.jpg" alt="Swan Lake Master Electrical Layout & Switchboard Schedules" loading="lazy" />
+              <div class="sheet-badge">Sheet 42 / 43</div>
+              <div class="sheet-type">Electrical</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Swan Lake Apartment</div>
+              <h3 class="sheet-title">Swan Lake Master Electrical Layout & Switchboard Schedules</h3>
+              <p class="sheet-desc">Complete electrical conduit plan and switchboard schedules SB 01 to SB 10.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p42.jpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sheet 43 of 43 -->
+          <article class="sheet-card" data-category="renovation" data-index="42" onclick="openLightbox(42)">
+            <div class="sheet-media">
+              <img src="assets/portfolio/p43.jpg" alt="Swan Lake Completed Apartment Handover Photos" loading="lazy" />
+              <div class="sheet-badge">Sheet 43 / 43</div>
+              <div class="sheet-type">Site Photo</div>
+              <div class="sheet-hover-overlay">
+                <span class="zoom-btn">🔍 Click to Open Sheet</span>
+              </div>
+            </div>
+            <div class="sheet-info">
+              <div class="sheet-project">Swan Lake Apartment</div>
+              <h3 class="sheet-title">Swan Lake Completed Apartment Handover Photos</h3>
+              <p class="sheet-desc">Handover site photography of renovated bedroom, bespoke wardrobe, and lighting.</p>
+              <div class="sheet-footer">
+                <button type="button" class="sheet-btn-action">Click to View Full Size ↗</button>
+                <span class="sheet-file">p43.jpg</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume-section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2 class="section-title">Curriculum Vitae</h2>
+            <p class="section-sub">Education, architectural training, software competencies, and professional credentials.</p>
+          </div>
+          <div class="resume-actions">
+            <button class="btn btn-secondary" onclick="toggleResumeImage()">Toggle Scanned Document</button>
+            <a href="assets/resume/resume_p01.jpg" download="Vaidehi_Dhumal_Resume.jpg" class="btn btn-primary">Download Resume JPG</a>
+          </div>
+        </div>
+
+        <!-- Official Scanned Resume Image Preview -->
+        <div id="resume-image-container" class="resume-image-preview">
+          <div class="preview-bar">
+            <span>Official Scanned Document: Vaidehi Dhumal Resume (Click image to expand full-screen)</span>
+            <button onclick="toggleResumeImage()" class="preview-close">✕ Close Preview</button>
+          </div>
+          <img src="assets/resume/resume_p01.jpg" alt="Vaidehi Dhumal Official Resume" class="resume-doc-img" onclick="openResumeModal()" />
+        </div>
+
+        <div class="resume-grid">
+          <div class="resume-sidebar">
+            <div class="resume-card">
+              <h3 class="resume-heading">Profile</h3>
+              <p>Passionate architecture graduate with hands-on practice in residential renovation, 1:25 toilet detailing, joinery schedules, and vernacular master planning.</p>
+            </div>
+
+            <div class="resume-card">
+              <h3 class="resume-heading">Education</h3>
+              <div class="education-item">
+                <div class="item-title">Bachelor of Architecture (B.Arch)</div>
+                <div class="item-sub">Marathwada Mitra Mandal's College of Architecture (MMCOA), Pune</div>
+                <div class="item-date">2020 – 2025</div>
+              </div>
+              <div class="education-item">
+                <div class="item-title">Higher Secondary (HSC)</div>
+                <div class="item-sub">Maharashtra State Board</div>
+                <div class="item-date">2018 – 2020</div>
+              </div>
+            </div>
+
+            <div class="resume-card">
+              <h3 class="resume-heading">Software Proficiency</h3>
+              <div class="skill-tags">
+                <span class="skill-tag">AutoCAD 2D</span>
+                <span class="skill-tag">SketchUp 3D</span>
+                <span class="skill-tag">Enscape</span>
+                <span class="skill-tag">Revit (BIM)</span>
+                <span class="skill-tag">Photoshop</span>
+                <span class="skill-tag">Blue Moon AI</span>
+                <span class="skill-tag">MS Office</span>
+              </div>
+            </div>
+
+            <div class="resume-card">
+              <h3 class="resume-heading">Key Competencies</h3>
+              <ul class="bullet-list">
+                <li>Working Drawings & 1:25 Detailing</li>
+                <li>Site Visits & Contractor Coordination</li>
+                <li>Quantity Estimations & BOQs</li>
+                <li>Passive Design & Courtyard Planning</li>
+                <li>Physical Scale Architectural Modeling</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="resume-main">
+            <div class="resume-card">
+              <h3 class="resume-heading">Professional Experience</h3>
+              
+              <div class="timeline-item">
+                <div class="timeline-header">
+                  <div>
+                    <h4 class="role-title">Junior Architect</h4>
+                    <div class="role-firm">Yashoda Joshi Architects · Pune</div>
+                  </div>
+                  <span class="role-badge">Nov 2024 – Present</span>
+                </div>
+                <ul class="role-responsibilities">
+                  <li>Supervised residential apartment and bungalow renovations from foundation layout to handover.</li>
+                  <li>Drafted construction-grade working drawings, 1:25 sanitary slope layouts, and joinery schedules.</li>
+                  <li>Handled on-site contractor coordination, material inspections (Jaquar, Kajaria), and vendor interactions.</li>
+                  <li>Generated photorealistic 3D perspectives and presentations for client approvals.</li>
+                </ul>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-header">
+                  <div>
+                    <h4 class="role-title">Architectural Intern</h4>
+                    <div class="role-firm">Yashoda Joshi Architects · Pune</div>
+                  </div>
+                  <span class="role-badge">Jun 2024 – Nov 2024</span>
+                </div>
+                <ul class="role-responsibilities">
+                  <li>Prepared demolition plans and proposed retrofit layouts for Vaishwik Art Gallery.</li>
+                  <li>Drafted millimeter-accurate fabrication sheets for Kalashree Villa MS railings and staircase treads.</li>
+                  <li>Assisted senior architects in creating comprehensive municipal submission packages and BOQs.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="resume-card">
+              <h3 class="resume-heading">Academic Research & Leadership</h3>
+              <div class="timeline-item">
+                <h4 class="role-title">Undergraduate Thesis: Visava Wellness Center</h4>
+                <div class="role-firm">Diveagar Coastal Context · MMCOA Pune (2024–2025)</div>
+                <p class="role-desc">Researched coastal vernacular architecture, microclimatic salt-spray resistance, passive wind channeling, and holistic health spa spatial programming across 20 design sheets.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="contact-layout">
+          <div class="contact-info">
+            <div class="hero-kicker">Inquiries & Collaborations</div>
+            <h2 class="contact-title">Let's Discuss Your Next Architectural Project</h2>
+            <p class="contact-desc">
+              Open to architectural positions, freelancing for technical drawings & 3D visualizations, or collaborating on spatial designs.
+            </p>
+
+            <div class="contact-methods">
+              <div class="method-card">
+                <span class="method-icon">✉</span>
+                <div>
+                  <div class="method-label">Direct Email</div>
+                  <a href="mailto:vaidehidhumal04@gmail.com" class="method-link">vaidehidhumal04@gmail.com</a>
+                </div>
+              </div>
+
+              <div class="method-card">
+                <span class="method-icon">📞</span>
+                <div>
+                  <div class="method-label">Phone & WhatsApp</div>
+                  <a href="tel:+918007019966" class="method-link">+91 8007019966</a>
+                </div>
+              </div>
+
+              <div class="method-card">
+                <span class="method-icon">📍</span>
+                <div>
+                  <div class="method-label">Base Location</div>
+                  <div class="method-link">Pune, Maharashtra, India</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <h3 class="form-title">Send a Message</h3>
+            <form id="contactForm" class="contact-form" action="mailto:vaidehidhumal04@gmail.com" method="POST" enctype="text/plain">
+              <div class="form-group">
+                <label for="form-name">Your Full Name</label>
+                <input type="text" id="form-name" name="Name" required placeholder="Ar. Rajesh Sharma" />
+              </div>
+              <div class="form-group">
+                <label for="form-email">Email Address</label>
+                <input type="email" id="form-email" name="Email" required placeholder="rajesh@studio.com" />
+              </div>
+              <div class="form-group">
+                <label for="form-subject">Project Typology / Subject</label>
+                <input type="text" id="form-subject" name="Subject" required placeholder="Residential Villa Design or Working Drawings" />
+              </div>
+              <div class="form-group">
+                <label for="form-message">Project Scope & Message</label>
+                <textarea id="form-message" name="Message" rows="4" required placeholder="Tell me about your site location, project requirements, or design timeline..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">Send Architectural Inquiry</button>
+              <p class="form-footnote">Opens your default email client to send directly to vaidehidhumal04@gmail.com.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Full-Screen Interactive Lightbox with Next/Prev Sheet Navigation -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <button class="lightbox-close" onclick="closeLightbox()" title="Close (Esc)">✕</button>
+    <button class="lightbox-nav prev" onclick="event.stopPropagation(); prevSheet()" title="Previous Sheet (Left Arrow)">‹</button>
+    <button class="lightbox-nav next" onclick="event.stopPropagation(); nextSheet()" title="Next Sheet (Right Arrow)">›</button>
+
+    <div class="lightbox-content" onclick="event.stopPropagation()">
+      <div class="lightbox-header">
+        <span id="lightbox-counter" class="lightbox-counter">Sheet 01 / 43</span>
+        <span id="lightbox-type" class="lightbox-type">Plan</span>
+      </div>
+      <div class="lightbox-media-wrap">
+        <img id="lightbox-img" src="" alt="Architectural Sheet Full View" />
+      </div>
+      <div class="lightbox-footer">
+        <div>
+          <h3 id="lightbox-title" class="lightbox-title"></h3>
+          <p id="lightbox-desc" class="lightbox-desc"></p>
+        </div>
+        <div class="lightbox-actions">
+          <a id="lightbox-direct" href="#" target="_blank" class="btn btn-secondary btn-sm" style="margin-right: 0.5rem;">Open Direct File ↗</a>
+          <a id="lightbox-download" href="#" download class="btn btn-primary btn-sm">Download Sheet</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-copy">
+        © 2026 Vaidehi Dhumal · Architectural Portfolio & Working Drawings · All 43 Sheets Included.
+      </div>
+      <div class="footer-links">
+        <a href="#home">Back to top ↑</a>
+        <a href="#gallery">43 Sheets</a>
+        <a href="#resume">CV</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Interactive JavaScript Engine -->
+  <script>
+    // 43 Portfolio Sheets Data Catalog
+    const ALL_SHEETS = [
+  {
+    "page": 1,
+    "src": "assets/portfolio/p01.jpg",
+    "title": "Title Cover : Architectural Portfolio",
+    "project": "Portfolio Cover",
+    "category": "cover",
+    "type": "Cover",
+    "desc": "B.Arch selected architectural works 2020\u20132025 by Vaidehi Dhumal."
+  },
+  {
+    "page": 2,
+    "src": "assets/portfolio/p02.jpg",
+    "title": "Visava : A Resting Place \u2014 Village Pathway",
+    "project": "Visava Wellness Center",
+    "category": "thesis",
+    "type": "3D Render",
+    "desc": "Coastal guest villas and betel nut grove arrival pathways in Diveagar."
+  },
+  {
+    "page": 3,
+    "src": "assets/portfolio/p03.jpg",
+    "title": "Climate, Sun & Wind Analysis & Site Brief",
+    "project": "Visava Wellness Center",
+    "category": "thesis",
+    "type": "Plan",
+    "desc": "Microclimatic analysis, accessibility routes from Mumbai & Pune, and site context."
+  },
+  {
+    "page": 4,
+    "src": "assets/portfolio/p04.jpg",
+    "title": "Master Site Plan & 17-Zone Legend",
+    "project": "Visava Wellness Center",
+    "category": "thesis",
+    "type": "Plan",
+    "desc": "1:500 Master Plan with healthcare, villas, central dining, and amphitheatre."
+  },
+  {
+    "page": 5,
+    "src": "assets/portfolio/p05.jpg",
+    "title": "Administration & Healthcare Complex Plans & Section",
+    "project": "Visava Wellness Center",
+    "category": "thesis",
+    "type": "Plan",
+    "desc": "Ground & 1st floor layouts, consulting suites, double-height lobby, Section AA."
+  },
+  {
+    "page": 6,
+    "src": "assets/portfolio/p06.jpg",
+    "title": "Administration Wing Sunlit Perspective",
+    "project": "Visava Wellness Center",
+    "category": "thesis",
+    "type": "3D Render",
+    "desc": "Exterior brick facade, Mangalore clay tiled roofs, and entrance courtyard."
+  },
+  {
+    "page": 7,
+    "src": "assets/portfolio/p07.jpg",
+    "title": "Female Treatment Complex Multi-Level Plans",
+    "project": "Visava Wellness Center",
+    "category": "thesis",
+    "type": "Plan",
+    "desc": "Hydrotherapy, acupuncture, acupressure, steam, sauna, and courtyard daylighting."
+  },
+  {
+    "page": 8,
+    "src": "assets/portfolio/p08.jpg",
+    "title": "Female Treatment Axonometric & Therapy Views",
+    "project": "Visava Wellness Center",
+    "category": "thesis",
+    "type": "Axonometric",
+    "desc": "Exploded three-level axonometric, pebble reflexology walkway, and physio studio."
+  },
+  {
+    "page": 9,
+    "src": "assets/portfolio/p09.jpg",
+    "title": "Male Treatment Complex Plans & Longitudinal Section",
+    "project": "Visava Wellness Center",
+    "category": "thesis",
+    "type": "Plan",
+    "desc": "Ground and first floor layouts, stepwell courtyard, and therapy consulting suites."
+  },
+  {
+    "page": 10,
+    "src": "assets/portfolio/p10.jpg",
+    "title": "Male Treatment Stepwell Courtyard Renders",
+    "project": "Visava Wellness Center",
+    "category": "thesis",
+    "type": "3D Render",
+    "desc": "Double-height stepwell water courtyard, natural cooling, and timber colonnades."
+  },
+  {
+    "page": 11,
+    "src": "assets/portfolio/p11.jpg",
+    "title": "Single Occupancy Rooms Plans, Section & Elevation",
+    "project": "Visava Wellness Center",
+    "category": "thesis",
+    "type": "Plan",
+    "desc": "Cottage unit layouts, private verandas, cross-ventilation, and roof slopes."
+  },
+  {
+    "page": 12,
+    "src": "assets/portfolio/p12.jpg",
+    "title": "Single Occupancy Cottage Dusk Render",
+    "project": "Visava Wellness Center",
+    "category": "thesis",
+    "type": "3D Render",
+    "desc": "Atmospheric dusk lighting on exposed brick walls and tropical landscape."
+  },
+  {
+    "page": 13,
+    "src": "assets/portfolio/p13.jpg",
+    "title": "Double Occupancy Villa Plans & Axonometric",
+    "project": "Visava Wellness Center",
+    "category": "thesis",
+    "type": "Axonometric",
+    "desc": "Detailed guest cottage layouts, private courtyards, and interior furniture render."
+  },
+  {
+    "page": 14,
+    "src": "assets/portfolio/p14.jpg",
+    "title": "Dormitory Units Plan, Section AA & Bunk Render",
+    "project": "Visava Wellness Center",
+    "category": "thesis",
+    "type": "Plan",
+    "desc": "Economical group accommodation, high ceiling cross-ventilation, and bunk room render."
+  },
+  {
+    "page": 15,
+    "src": "assets/portfolio/p15.jpg",
+    "title": "Dormitory Clusters in Coastal Landscape",
+    "project": "Visava Wellness Center",
+    "category": "thesis",
+    "type": "3D Render",
+    "desc": "Staggered dorm cottages nestled among native coconut palms and garden pavers."
+  },
+  {
+    "page": 16,
+    "src": "assets/portfolio/p16.jpg",
+    "title": "Communal Dining Hall Plans & Renders",
+    "project": "Visava Wellness Center",
+    "category": "thesis",
+    "type": "Plan",
+    "desc": "Spacious open-sided dining hall, organic kitchen garden, and buffet pavilion."
+  },
+  {
+    "page": 17,
+    "src": "assets/portfolio/p17.jpg",
+    "title": "Private Luxury Villa Plans & Axonometric",
+    "project": "Visava Wellness Center",
+    "category": "thesis",
+    "type": "Axonometric",
+    "desc": "High-end guest villa with plunge pool, master suite, and passive courtyard."
+  },
+  {
+    "page": 18,
+    "src": "assets/portfolio/p18.jpg",
+    "title": "Villa Garden Cluster & Central Gazebo Render",
+    "project": "Visava Wellness Center",
+    "category": "thesis",
+    "type": "3D Render",
+    "desc": "Shared central lawn, shaded pavilion, and perimeter walking path."
+  },
+  {
+    "page": 19,
+    "src": "assets/portfolio/p19.jpg",
+    "title": "Visava Coastal Bird's-Eye Master Panorama",
+    "project": "Visava Wellness Center",
+    "category": "thesis",
+    "type": "3D Render",
+    "desc": "Comprehensive aerial perspective of the 17-zone resort along the Arabian Sea."
+  },
+  {
+    "page": 20,
+    "src": "assets/portfolio/p20.jpg",
+    "title": "Central Pedestrian Promenade Towards Sea",
+    "project": "Visava Wellness Center",
+    "category": "thesis",
+    "type": "3D Render",
+    "desc": "Main shaded pedestrian spine framed by brick colonnades leading toward the beach."
+  },
+  {
+    "page": 21,
+    "src": "assets/portfolio/p21.jpg",
+    "title": "Jogging & Walking Trail Under Coconut Canopy",
+    "project": "Visava Wellness Center",
+    "category": "thesis",
+    "type": "3D Render",
+    "desc": "Wellness exercise path weaving through existing tropical orchards."
+  },
+  {
+    "page": 22,
+    "src": "assets/portfolio/p22.jpg",
+    "title": "Internship Work Cover (Yashoda Joshi Architects)",
+    "project": "Professional Practice",
+    "category": "cover",
+    "type": "Cover",
+    "desc": "Cover sheet introducing professional training, working drawings, and on-site practice."
+  },
+  {
+    "page": 23,
+    "src": "assets/portfolio/p23.jpg",
+    "title": "Kalashree Villa 2nd Floor Terrace MS Railing Details",
+    "project": "Kalashree Villa",
+    "category": "details",
+    "type": "Detail",
+    "desc": "Fabrication drawing for MS terrace safety railing with base plate & expansion bolts."
+  },
+  {
+    "page": 24,
+    "src": "assets/portfolio/p24.jpg",
+    "title": "Kalashree Internal Staircase Detailing & Photos",
+    "project": "Kalashree Villa",
+    "category": "details",
+    "type": "Detail",
+    "desc": "Structural staircase joinery, riser/tread dimensions, and on-site fabrication photos."
+  },
+  {
+    "page": 25,
+    "src": "assets/portfolio/p25.jpg",
+    "title": "Kalashree North-West Villa Elevation with Brick Jali",
+    "project": "Kalashree Villa",
+    "category": "residential",
+    "type": "Elevation",
+    "desc": "Architectural elevation featuring clay brick jali solar screening and cantilevered decks."
+  },
+  {
+    "page": 26,
+    "src": "assets/portfolio/p26.jpg",
+    "title": "Kalashree Villa Urban Streetscape 3D Render",
+    "project": "Kalashree Villa",
+    "category": "residential",
+    "type": "3D Render",
+    "desc": "Contextual urban street perspective highlighting contemporary massing."
+  },
+  {
+    "page": 27,
+    "src": "assets/portfolio/p27.jpg",
+    "title": "Vaishwik Arts 2nd Floor & Terrace Demolition Plans",
+    "project": "Vaishwik Arts & Environment",
+    "category": "renovation",
+    "type": "Plan",
+    "desc": "Structural demolition plans marking walls and slabs to remove for gallery atrium."
+  },
+  {
+    "page": 28,
+    "src": "assets/portfolio/p28.jpg",
+    "title": "Vaishwik Arts Proposed 2nd Floor Gallery Plans",
+    "project": "Vaishwik Arts & Environment",
+    "category": "renovation",
+    "type": "Plan",
+    "desc": "Proposed adaptive reuse layout with exhibition spaces, workshop, and terrace cafe."
+  },
+  {
+    "page": 29,
+    "src": "assets/portfolio/p29.jpg",
+    "title": "Vaishwik Arts Longitudinal & Cross Sections A\u2013D",
+    "project": "Vaishwik Arts & Environment",
+    "category": "renovation",
+    "type": "Section",
+    "desc": "Structural sections showing timber canopy columns, light wells, and floor heights."
+  },
+  {
+    "page": 30,
+    "src": "assets/portfolio/p30.jpg",
+    "title": "Vaishwik Arts Massing Models & Steel Lift Tower",
+    "project": "Vaishwik Arts & Environment",
+    "category": "renovation",
+    "type": "Axonometric",
+    "desc": "Physical study models showing external red steel elevator tower and atrium roof."
+  },
+  {
+    "page": 31,
+    "src": "assets/portfolio/p31.jpg",
+    "title": "Amravati Bungalow Ground & First Floor Plans",
+    "project": "Amravati Bungalow",
+    "category": "residential",
+    "type": "Plan",
+    "desc": "Multi-generational family layout, double-height living room, and guest suites."
+  },
+  {
+    "page": 32,
+    "src": "assets/portfolio/p32.jpg",
+    "title": "Amravati Bungalow Second Floor & Terrace Plans",
+    "project": "Amravati Bungalow",
+    "category": "residential",
+    "type": "Plan",
+    "desc": "Master bedrooms, cantilevered balconies, open party terrace, and pergola lounge."
+  },
+  {
+    "page": 33,
+    "src": "assets/portfolio/p33.jpg",
+    "title": "Amravati Bungalow 4 Exterior Photorealistic Renders",
+    "project": "Amravati Bungalow",
+    "category": "residential",
+    "type": "3D Render",
+    "desc": "Four perspective views displaying warm stone claddings and cantilevered forms."
+  },
+  {
+    "page": 34,
+    "src": "assets/portfolio/p34.jpg",
+    "title": "Krushnakunj Ground Floor Toilet Working Detail (1:25)",
+    "project": "Krushnakunj Toilet Detailing",
+    "category": "details",
+    "type": "Detail",
+    "desc": "1:25 scale toilet working plan with drainage slopes, Kajaria tile grid, and fixtures."
+  },
+  {
+    "page": 35,
+    "src": "assets/portfolio/p35.jpg",
+    "title": "Krushnakunj Toilet Sections AA & BB (1:25 Scale)",
+    "project": "Krushnakunj Toilet Detailing",
+    "category": "details",
+    "type": "Section",
+    "desc": "1:25 plumbing sections detailing wall-hung WC, concealed cistern, and dado heights."
+  },
+  {
+    "page": 36,
+    "src": "assets/portfolio/p36.jpg",
+    "title": "Balcony Elevation & MS Grill Door Details",
+    "project": "Balcony & Joinery Detailing",
+    "category": "details",
+    "type": "Detail",
+    "desc": "Working drawing of balcony safety grill door with pleated aluminium mesh."
+  },
+  {
+    "page": 37,
+    "src": "assets/portfolio/p37.jpg",
+    "title": "Kitchen Renovation Project Site Photos & Joinery",
+    "project": "Kitchen Renovation",
+    "category": "renovation",
+    "type": "Site Photo",
+    "desc": "Completed execution photos of modular cabinetry, quartz countertops, and fixtures."
+  },
+  {
+    "page": 38,
+    "src": "assets/portfolio/p38.jpg",
+    "title": "Swan Lake Master Bathroom Working Plan (1:25 Scale)",
+    "project": "Swan Lake Apartment",
+    "category": "details",
+    "type": "Plan",
+    "desc": "Turnkey bathroom layout with fixture schedules (Jaquar & Kajaria tiles)."
+  },
+  {
+    "page": 39,
+    "src": "assets/portfolio/p39.jpg",
+    "title": "Swan Lake Bathroom Longitudinal Section & Tile Elevations",
+    "project": "Swan Lake Apartment",
+    "category": "details",
+    "type": "Section",
+    "desc": "1:25 cross section showing tile layout heights, niches, and concealed plumbing."
+  },
+  {
+    "page": 40,
+    "src": "assets/portfolio/p40.jpg",
+    "title": "Swan Lake Bathroom Renovation Completed Photos & Model",
+    "project": "Swan Lake Apartment",
+    "category": "renovation",
+    "type": "Site Photo",
+    "desc": "Before & after execution photos alongside 3D axonometric tiling model."
+  },
+  {
+    "page": 41,
+    "src": "assets/portfolio/p41.jpg",
+    "title": "Swan Lake Secondary Toilet Plan & Tile Elevations",
+    "project": "Swan Lake Apartment",
+    "category": "details",
+    "type": "Section",
+    "desc": "Working plan and wall elevations using Innova Azul & Blanco ceramic tiles."
+  },
+  {
+    "page": 42,
+    "src": "assets/portfolio/p42.jpg",
+    "title": "Swan Lake Master Electrical Layout & Switchboard Schedules",
+    "project": "Swan Lake Apartment",
+    "category": "details",
+    "type": "Electrical",
+    "desc": "Complete electrical conduit plan and switchboard schedules SB 01 to SB 10."
+  },
+  {
+    "page": 43,
+    "src": "assets/portfolio/p43.jpg",
+    "title": "Swan Lake Completed Apartment Handover Photos",
+    "project": "Swan Lake Apartment",
+    "category": "renovation",
+    "type": "Site Photo",
+    "desc": "Handover site photography of renovated bedroom, bespoke wardrobe, and lighting."
+  }
+];
+
+    let currentIndex = 0;
+
+    // Theme Toggle (Dark / Light)
+    const themeBtn = document.getElementById('theme-toggle');
+    themeBtn.addEventListener('click', () => {
+      if (document.body.classList.contains('dark-theme')) {
+        document.body.classList.remove('dark-theme');
+        document.body.classList.add('light-theme');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.body.classList.remove('light-theme');
+        document.body.classList.add('dark-theme');
+        localStorage.setItem('theme', 'dark');
+      }
+    });
+
+    if (localStorage.getItem('theme') === 'dark' || (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches && !localStorage.getItem('theme'))) {
+      document.body.classList.remove('light-theme');
+      document.body.classList.add('dark-theme');
+    }
+
+    // Category Filtering
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const sheetCards = document.querySelectorAll('.sheet-card');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filter = btn.getAttribute('data-filter');
+
+        sheetCards.forEach(card => {
+          if (filter === 'all' || card.getAttribute('data-category') === filter) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // Lightbox Controls
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const lightboxTitle = document.getElementById('lightbox-title');
+    const lightboxDesc = document.getElementById('lightbox-desc');
+    const lightboxCounter = document.getElementById('lightbox-counter');
+    const lightboxType = document.getElementById('lightbox-type');
+    const lightboxDownload = document.getElementById('lightbox-download');
+    const lightboxDirect = document.getElementById('lightbox-direct');
+
+    function openLightbox(index) {
+      currentIndex = index;
+      renderLightboxSheet();
+      lightbox.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function renderLightboxSheet() {
+      const sheet = ALL_SHEETS[currentIndex];
+      if (!sheet) return;
+
+      lightboxImg.src = sheet.src;
+      lightboxTitle.textContent = sheet.title + ' (' + sheet.project + ')';
+      lightboxDesc.textContent = sheet.desc;
+      lightboxCounter.textContent = 'Sheet ' + String(sheet.page).padStart(2, '0') + ' / 43';
+      lightboxType.textContent = sheet.type;
+      lightboxDirect.href = sheet.src;
+      lightboxDownload.href = sheet.src;
+      lightboxDownload.setAttribute('download', 'Vaidehi_Dhumal_Sheet_' + String(sheet.page).padStart(2, '0') + '.jpg');
+    }
+
+    function nextSheet() {
+      currentIndex = (currentIndex + 1) % ALL_SHEETS.length;
+      renderLightboxSheet();
+    }
+
+    function prevSheet() {
+      currentIndex = (currentIndex - 1 + ALL_SHEETS.length) % ALL_SHEETS.length;
+      renderLightboxSheet();
+    }
+
+    function closeLightbox() {
+      lightbox.classList.remove('active');
+      document.body.style.overflow = '';
+      lightboxImg.src = '';
+    }
+
+    function openResumeModal() {
+      lightboxImg.src = 'assets/resume/resume_p01.jpg';
+      lightboxTitle.textContent = 'Curriculum Vitae — Vaidehi Dhumal';
+      lightboxDesc.textContent = 'Official scanned CV document with photograph, education, software proficiency, and experience.';
+      lightboxCounter.textContent = 'Resume Document';
+      lightboxType.textContent = 'Curriculum Vitae';
+      lightboxDirect.href = 'assets/resume/resume_p01.jpg';
+      lightboxDownload.href = 'assets/resume/resume_p01.jpg';
+      lightboxDownload.setAttribute('download', 'Vaidehi_Dhumal_Resume.jpg');
+      lightbox.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    // Keyboard Navigation
+    document.addEventListener('keydown', (e) => {
+      if (!lightbox.classList.contains('active')) return;
+      if (e.key === 'Escape') closeLightbox();
+      if (e.key === 'ArrowRight') nextSheet();
+      if (e.key === 'ArrowLeft') prevSheet();
+    });
+
+    // Resume Document Toggle
+    function toggleResumeImage() {
+      const container = document.getElementById('resume-image-container');
+      container.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
